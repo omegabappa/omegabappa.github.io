@@ -39,14 +39,6 @@
       "active": true
     },
     {
-      "date": "2026-05-27",
-      "dateLabel": "27 May 2026",
-      "title": "Postdoctoral Career Guide Panel",
-      "detail": "Panelist · UND School of Medicine & Health Sciences.",
-      "url": "",
-      "active": true
-    },
-    {
       "date": "2026-05",
       "dateLabel": "May 2026",
       "title": "Single-molecule concatemers in 3D genome organization",
@@ -87,14 +79,6 @@
       "active": true
     },
     {
-      "date": "2026-03-27",
-      "dateLabel": "27 Mar 2026",
-      "title": "North Dakota State Science and Engineering Fair",
-      "detail": "Judge · University of North Dakota.",
-      "url": "",
-      "active": true
-    },
-    {
       "date": "2025-11-19",
       "dateLabel": "19 Nov 2025",
       "title": "When a pioneer transcription factor goes errant",
@@ -107,14 +91,6 @@
       "dateLabel": "15–17 Oct 2025",
       "title": "GATA3 and 3D chromatin architecture",
       "detail": "Poster · Epigenetics Society International Symposium, Chicago.",
-      "url": "",
-      "active": true
-    },
-    {
-      "date": "2025-09-27",
-      "dateLabel": "27 Sep 2025",
-      "title": "GATA3 research at the UND biomedical sciences retreat",
-      "detail": "Research presentation · University of North Dakota.",
       "url": "",
       "active": true
     },
@@ -202,13 +178,6 @@
           "fallbackLabel": ""
         },
         {
-          "title": "Nanopore concatemer sequencing",
-          "detail": "",
-          "url": "",
-          "fallbackUrl": "",
-          "fallbackLabel": ""
-        },
-        {
           "title": "Cell-free DNA and interpretable machine learning",
           "detail": "",
           "url": "",
@@ -227,13 +196,6 @@
           "detail": "",
           "url": "",
           "fallbackUrl": "https://doi.org/10.1088/1361-648X/abb687",
-          "fallbackLabel": "Paper"
-        },
-        {
-          "title": "Polymer–pore interactions and charge effects",
-          "detail": "",
-          "url": "",
-          "fallbackUrl": "https://doi.org/10.1021/acs.jpcb.8b12301",
           "fallbackLabel": "Paper"
         }
       ]
@@ -329,28 +291,28 @@
   "timeline": [
     {
       "id": "und-biomedical-sciences",
-      "period": "present",
+      "period": "2021-present",
       "title": "Postdoctoral Researcher",
-      "institution": "University of North Dakota",
-      "location": "Grand Forks, USA",
-      "detail": "Biomedical Sciences · Motoki Takaku.",
+      "institution": "University of North Dakota, USA",
+      "location": "",
+      "detail": "",
       "url": "https://med.und.edu/education-training/biomedical-sciences/index.html"
     },
     {
       "id": "iiser-tvm-postdoc",
       "period": "2020–2021",
       "title": "Postdoctoral Researcher",
-      "institution": "IISER Thiruvananthapuram",
-      "location": "Kerala, India",
-      "detail": "Chemistry · Mahesh Hariharan.",
+      "institution": "IISER Thiruvananthapuram, India",
+      "location": "",
+      "detail": "",
       "url": "https://chemistry.iisertvm.ac.in/"
     },
     {
       "id": "iiser-pune-phd",
       "period": "2014–2020",
       "title": "Ph.D. in Computational and Theoretical Biophysics",
-      "institution": "IISER Pune",
-      "location": "Pune, India",
+      "institution": "IISER Pune, India",
+      "location": "",
       "detail": "Thesis: Some aspects of non-equilibrium polymer translocation dynamics.",
       "url": "https://www.iiserpune.ac.in/research/department/chemistry"
     },
@@ -358,8 +320,8 @@
       "id": "iit-kanpur",
       "period": "2011–2013",
       "title": "M.Sc. in Chemical Sciences",
-      "institution": "IIT Kanpur",
-      "location": "Kanpur, India",
+      "institution": "IIT Kanpur, India",
+      "location": "",
       "detail": "",
       "url": "https://iitk.ac.in/chm/about"
     },
@@ -367,9 +329,9 @@
       "id": "visva-bharati",
       "period": "2008–2011",
       "title": "B.Sc. (Hons.) in Chemical Sciences",
-      "institution": "Visva-Bharati University",
-      "location": "Santiniketan, India",
-      "detail": "With distinction.",
+      "institution": "Visva-Bharati University, India",
+      "location": "",
+      "detail": "",
       "url": "https://www.visvabharati.ac.in/home/chemistry/"
     }
   ],

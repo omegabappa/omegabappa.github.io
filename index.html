@@ -1,180 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80116460-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-80116460-2');
-    </script>
-
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bappa's Web-abode</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bappa Ghosh, Ph.D. — computational genomics, epigenetics, molecular simulation, and biotechnology innovation.">
+  <meta name="theme-color" content="#333333">
+  <meta property="og:title" content="Bappa Ghosh | Research & Innovation">
+  <meta property="og:description" content="Research, publications, and academic journey.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://omegabappa.github.io/">
+  <meta property="og:image" content="https://omegabappa.github.io/images/bappa.jpg">
+  <title>Bappa Ghosh | Research & Innovation</title>
+  <link rel="canonical" href="https://omegabappa.github.io/">
+  <link rel="stylesheet" href="style.css">
+  <script src="visitors.js" defer></script>
+  <script src="site.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Main navigation">
+      <ul class="nav-links" id="primary-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#updates">Updates</a></li>
+        <li><a id="cv-link" target="_blank" rel="noopener noreferrer" hidden>CV ↗</a><span id="cv-pending" class="nav-disabled" title="CV link not yet available">CV</span></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+        <a class="contact-nav" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main class="content" id="main">
+    <section class="hero panel-row" id="about" aria-labelledby="profile-name">
+      <div class="panel profile-panel">
+        <img class="portrait" id="portrait" src="images/bappa.jpg" alt="Bappa Ghosh" width="700" height="700" fetchpriority="high">
+        <h1 id="profile-name">Bappa Ghosh <span class="degree">Ph.D.</span></h1>
+        <p class="profile-role" id="profile-role">Postdoctoral Researcher</p>
+        <p class="profile-affiliation" id="profile-affiliation">Department of Biomedical Sciences<br>University of North Dakota</p>
+        <div class="social-links" id="social-links" aria-label="Researcher profiles"></div>
+      </div>
+      <div class="panel biography-panel">
+        <h2>Biography</h2>
+        <div class="biography" id="biography"><p>I study 3D chromatin organization and gene regulation using computational genomics and sequencing.</p></div>
+        <p class="profile-links" id="profile-links"></p>
+      </div>
+    </section>
+    <p class="load-message" id="load-message" role="status" hidden></p>
+    <noscript><p class="panel">Enable JavaScript to view the full page. <a href="https://calendly.com/bappa/meeting">Schedule a meeting</a>.</p></noscript>
 
-    <header>
-        <nav class="top-nav">
-            <div class="logo">
-                <img src="./files/bappa2.webp" alt="Logo" style="height: 40px;">
-            </div>
-            
-            <div class="menu-icon" onclick="toggleMenu()">☰</div>
-            <ul class="menu">
-                <li><a href="https://omegabappa.github.io/">Home</a></li>
-                <li><a href="./subpages/projects.html">Projects</a></li>
-                <li><a href="https://scholar.google.co.in/citations?user=nSfKXrsAAAAJ&hl=en&authuser=1">Publications</a></li>
-                <li><a href="https://calendly.com/bappa/meeting">Contact</a></li>
-                <li><a href="./subpages/tool&links.html"> Tools & Links </a></li>
-                <li><a href="./files/Bappa_CV.pdf">CV</a></li>
-
-
-            </ul>
-        </nav>
-    </header>
-
-    <main class="content">
-
-    <div class="panel-row">
-        <section class="left-panel">
-            <div class="profile-picture">
-                <img src="./images/bappa.jpg" alt="Profile Picture">
-                <h3 class="profile-name">Bappa Ghosh</h3>
-                <p class="profile-affiliation">Postdoctoral Researcher, University of North Dakota, USA</p>
-            </div>
-            
-            
-                <div class="social-links">
-                    <a href="https://scholar.google.co.in/citations?user=nSfKXrsAAAAJ&hl=en&authuser=1" target="_blank">
-                        <img src="images/google-scholar4372.png" alt="Google Scholar Logo">
-                    </a>
-                    <a href="https://www.linkedin.com/in/bappa-ghosh-43327866/" target="_blank">
-                        <img src="images/LinkedIn_logo_initials.png" alt="LinkedIn Logo">
-                    </a>
-                    <a href="https://github.com/omegabappa" target="_blank">
-                        <img src="images/GitHub-logo.png" alt="GitHub Logo">
-                    </a>
-                    <a href="https://www.researchgate.net/profile/Bappa_Ghosh4" target="_blank">
-                        <img src="images/ResearchGate_icon.png" alt="ResearchGate Logo">
-                    </a>
-                    <a href="https://orcid.org/0000-0002-4054-0859" target="_blank">
-                        <img src="images/ORCID_iD.png" alt="ORCID Logo">
-                    </a>
-                    <a href="https://twitter.com/omegabappa" target="_blank">
-                        <img src="images/twitter-x-app.png" alt="Twitter Logo">
-                    </a>
-                </div>
-        </section>
-    
-        
-        
-        <section class="right-panel">
-            <h2>Biography</h2>
-            <br>
-            <p>I am working at the University of North Dakota with
-                <a href="https://sites.google.com/view/takakulab/motoki-takaku"> Dr. Motoki Takaku </a>. I apply state-of-the-art computational and next-generation sequencing (NGS) techniques to 
-                understand chromatin 3D structure and dynamics. I am broadly curious about computers, chemistry and chromatin.</p>
-        
-            <div class="info-section">
-                <div class="interests">
-                    <h3>Interests</h3>
-                    <ul>
-                        <li>Bioinformatics</li>
-                        <li> Chromatin structure & function </li>
-                        <li> Polymer dynamics </li>
-                        <li>Molecular simulations</li>
-                        
-                    </ul>
-                </div>
-            <div class="education">
-                <h3>Education</h3>
-                <ul>
-                    <li>
-                        <span class="academic-hat">🎓</span> Ph.D. in Computational Chemistry
-                        <div class="institute"> IISER Pune, India, 2019</div>
-                    </li>
-                    <li>
-                        <span class="academic-hat">🎓</span> M.Sc. in Chemical Sciences
-                        <div class="institute">IIT Kanpur, India, 2013</div>
-                    </li>
-                    <li>
-                        <span class="academic-hat">🎓</span>B.Sc. in Chemical Sciences
-                        <div class="institute">Visva-Bharati University, India, 2011</div>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </section>
-    </div>
-
-    <div class="panel-row">
-        <section class="left-panel">
-            <div class="container">
-                <a href="#whatsnew" class="whats-new">
-                  <span>Updates !!</span>
-                </a>
-            
-                <ul class="updates-list">
-
-
-                    <li><a href="https://bioquicknews.com/2024-asilomar-chromatin-chromosomes-and-epigenetics-conference-session-4-chromosomes-and-nuclear-organization/#more-16991"><b>December 2024:</b> Research talk on "Unraveling the Effects of Cancer-Derived Pioneer Factor Mutations on 3D Chromatin Architecture 
-                        Using Nanopore Concatemer Sequencing."  
-                        at the 46th Annual International Asilomar Chromatin, Chromosomes and Epigenetics Conference at Monterery Bay, USA </a></li>
-                  <li><a href="https://www.aiche.org/conferences/ragsab/2024/technical-program"><b>September 2024:</b> Invited talk on "Chromatin 3D Map of Cancer Cells: Big Data, 
-                    Artificial Intelligence and Promises"  
-                      at the NSF supported AIChE workshop RAGSAB at California, USA </a></li>
-          
-                  <li><a href="https://meetings.cshl.edu/abstracts.aspx?meet=NUCLEUS&year=24"><b>May 2024:</b> Presented a poster on "3D Chromatin Organization via Nanopore Concatemer Sequencing"  
-                      at the conference “Genome Organization & Nuclear Function” at Cold Spring Harbor Laboratory, New York.</a></li>
-                  <li><a href="https://www.grc.org/genome-architecture-in-cell-fate-and-disease-grs-conference/2023/"><b>June 2023:</b> Presented a poster on "3D Chromatin Organization in Breast Cancer Cells having GATA3 Mutation" at the "Genome Architecture in Cell Fate and Disease", 
-                      Gordon Research Conference, California, USA.  </a></li>
-                  <li><a href="#"><b>April 2023:</b> Conducted a workshop on "Chat generative pre-training transformer (chatGPT) in the 
-                      context of scientific research" at the School of Medicine and Health Sciences, University of North Dakota, USA. </a></li>           
-                  
-                  <!-- <li><a href="old.html"><b>Click for past events...</b> </a></li> -->
-                </ul>
-              </div>
-        </section>
-    
-        <!-- <section class="right-panel">
-            <h2>Research and </h2>
-            <p>This is additional content on the right below the first row.</p>
-        </section> -->
-
-        <!-- <div class="panel-row">
-            <section class="left-panel">
-            </section>
-        </div> -->
-
-    </div>
-
-
-        
-
-        
-    </main>
-
-    
-
-    <footer>
-        <p>&copy; 2024 Ghosh</p>
-    </footer>
-
-    <script>
-        function toggleMenu() {
-            const menu = document.querySelector('.menu');
-            menu.classList.toggle('active');
-        }
-    </script>
-
+    <section class="panel section" id="updates" aria-labelledby="updates-title">
+      <div class="section-heading"><h2 id="updates-title">Updates</h2><span class="quiet" id="updates-count">Latest 7</span></div>
+      <ul class="updates-list" id="updates-list"></ul>
+      <details class="more" id="updates-more" hidden><summary><span class="when-closed" id="updates-more-label">See more updates</span><span class="when-open">Show fewer</span></summary><ul class="updates-list archive" id="updates-archive"></ul></details>
+    </section>
+    <section class="panel section" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">Research & Innovation</h2></div>
+      <div class="research-grid" id="research-list"></div>
+    </section>
+    <section class="panel section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><h2 id="publications-title">Publications</h2></div>
+      <ol class="publication-list" id="publications-list"></ol>
+      <details class="more" id="publications-more" hidden><summary><span class="when-closed" id="publications-more-label">See all publications</span><span class="when-open">Show fewer</span></summary><ol class="publication-list archive" id="publications-archive"></ol></details>
+    </section>
+    <section class="panel section" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-heading"><h2 id="timeline-title">Academic journey</h2></div>
+      <ol class="timeline" id="timeline-list"></ol>
+    </section>
+    <section class="panel section contact-section" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <a class="button" id="schedule-link" href="https://calendly.com/bappa/meeting" target="_blank" rel="noopener noreferrer">Schedule a meeting ↗</a>
+    </section>
+    <aside class="visitor-panel" id="visitors" aria-labelledby="visitors-title" hidden>
+      <div class="visitor-heading"><h2 id="visitors-title">Visitors</h2><p class="quiet" id="visitor-status" role="status"></p></div>
+      <div id="visitor-data" hidden>
+        <div class="visitor-metrics"><p><strong id="visit-total">—</strong><span>Recorded visits</span></p><p><strong id="country-total">—</strong><span>Countries</span></p><p class="last-visit"><span>Latest recorded visit</span><strong id="last-visit">—</strong></p></div>
+        <div class="country-list" id="country-list" aria-label="Visits by country"></div>
+        <p class="visitor-note" id="visitor-note"></p>
+      </div>
+    </aside>
+  </main>
+  <footer class="site-footer"><div><span>© <span id="year">2026</span> Ghosh</span><a href="#about">Back to top ↑</a></div></footer>
 </body>
-
 </html>

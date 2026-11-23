@@ -1,0 +1,381 @@
+{
+  "profile": {
+    "name": "Bappa Ghosh",
+    "degree": "Ph.D.",
+    "role": "Postdoctoral Researcher",
+    "department": "Department of Biomedical Sciences",
+    "institution": "University of North Dakota",
+    "bio": [
+      "I study how 3D chromatin organization regulates gene expression, using computational genomics, sequencing, and molecular simulation.",
+      "My background in computational and theoretical biophysics spans polymer dynamics, statistical modeling, and cancer epigenetics. I teach bioinformatics and serve as Program Lead at Detectology, developing biotechnology applications."
+    ],
+    "portrait": "images/bappa.jpg",
+    "departmentUrl": "https://med.und.edu/education-training/biomedical-sciences/index.html",
+    "institutionUrl": "https://und.edu/",
+    "relatedLinks": [
+      {
+        "label": "Takaku Lab",
+        "url": "https://sites.google.com/view/takakulab/takaku-lab"
+      }
+    ]
+  },
+  "links": {
+    "cvDriveUrl": "",
+    "scholar": "https://scholar.google.com/citations?user=nSfKXrsAAAAJ",
+    "orcid": "https://orcid.org/0000-0002-4054-0859",
+    "github": "https://github.com/omegabappa",
+    "linkedin": "https://www.linkedin.com/in/bappa-ghosh-43327866/",
+    "researchgate": "https://www.researchgate.net/profile/Bappa_Ghosh4",
+    "twitter": "https://twitter.com/omegabappa",
+    "schedule": "https://calendly.com/bappa/meeting"
+  },
+  "updates": [
+    {
+      "date": "2026-08-20",
+      "dateLabel": "20 Aug 2026",
+      "title": "Detectology at the Lift-Off Showcase",
+      "detail": "Cell-free DNA recovery from small blood samples · UND.",
+      "url": "https://blogs.und.edu/und-today/2026/08/und-innovators-pitch-commercialization-ready-ideas-at-inaugural-lift-off-showcase/",
+      "active": true
+    },
+    {
+      "date": "2026-05-27",
+      "dateLabel": "27 May 2026",
+      "title": "Postdoctoral Career Guide Panel",
+      "detail": "Panelist · UND School of Medicine & Health Sciences.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2026-05",
+      "dateLabel": "May 2026",
+      "title": "Single-molecule concatemers in 3D genome organization",
+      "detail": "Poster · UND Epigenetics & Epigenomics Symposium.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2026-05-06",
+      "dateLabel": "6 May 2026",
+      "title": "Cancer-screening research at the gBETA showcase",
+      "detail": "Circulating DNA extraction · gBETA Grand Forks.",
+      "url": "https://www.linkedin.com/posts/gener8tor_gbeta-entrepreneurship-startups-activity-7460346561399652352-o1hT",
+      "active": true
+    },
+    {
+      "date": "2026-04-29",
+      "dateLabel": "29 Apr 2026",
+      "title": "Detectology at the LAUNCH Showcase",
+      "detail": "Early cancer detection research · UND Center for Innovation.",
+      "url": "https://blogs.und.edu/press-releases/2026/05/launch-event-highlights-unds-growing-culture-of-innovation/",
+      "active": true
+    },
+    {
+      "date": "2026-04-27",
+      "dateLabel": "27 Apr 2026",
+      "title": "Frank Low Research Day",
+      "detail": "Judge · UND School of Medicine & Health Sciences.",
+      "url": "https://med.und.edu/research/frank-low.html",
+      "active": true
+    },
+    {
+      "date": "2026-04-13",
+      "dateLabel": "13–15 Apr 2026",
+      "title": "Pioneer factor-driven genome restructuring in breast cancer",
+      "detail": "Poster · IDeA State Trainee Cancer Research Conference.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2026-03-27",
+      "dateLabel": "27 Mar 2026",
+      "title": "North Dakota State Science and Engineering Fair",
+      "detail": "Judge · University of North Dakota.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2025-11-19",
+      "dateLabel": "19 Nov 2025",
+      "title": "When a pioneer transcription factor goes errant",
+      "detail": "Research talk · UND Biomedical Sciences.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2025-10-15",
+      "dateLabel": "15–17 Oct 2025",
+      "title": "GATA3 and 3D chromatin architecture",
+      "detail": "Poster · Epigenetics Society International Symposium, Chicago.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2025-09-27",
+      "dateLabel": "27 Sep 2025",
+      "title": "GATA3 research at the UND biomedical sciences retreat",
+      "detail": "Research presentation · University of North Dakota.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2025-05-20",
+      "dateLabel": "20–21 May 2025",
+      "title": "Pioneer-factor mutations and chromatin architecture",
+      "detail": "Poster · UND Epigenetics & Epigenomics Symposium.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2024-12-12",
+      "dateLabel": "12–15 Dec 2024",
+      "title": "Nanopore concatemer sequencing at Asilomar",
+      "detail": "Research talk · International Asilomar Chromatin Conference.",
+      "url": "https://bioquicknews.com/2024-asilomar-chromatin-chromosomes-and-epigenetics-conference-session-4-chromosomes-and-nuclear-organization/#more-16991",
+      "active": true
+    },
+    {
+      "date": "2024-09-26",
+      "dateLabel": "26–27 Sep 2024",
+      "title": "Nanopore sequencing, chromatin maps, and artificial intelligence",
+      "detail": "Invited talk · NSF-supported AIChE RAGSAB workshop.",
+      "url": "https://www.aiche.org/conferences/ragsab/2024/technical-program",
+      "active": true
+    },
+    {
+      "date": "2024-04-30",
+      "dateLabel": "30 Apr–4 May 2024",
+      "title": "3D chromatin organization via nanopore concatemer sequencing",
+      "detail": "Poster · Genome Organization & Nuclear Function, CSHL.",
+      "url": "https://meetings.cshl.edu/abstracts.aspx?meet=NUCLEUS&year=24",
+      "active": true
+    },
+    {
+      "date": "2023-06-11",
+      "dateLabel": "11–16 Jun 2023",
+      "title": "GATA3 mutations and 3D chromatin organization",
+      "detail": "Poster · Genome Architecture in Cell Fate and Disease, GRC.",
+      "url": "",
+      "active": true
+    },
+    {
+      "date": "2023-04",
+      "dateLabel": "Apr 2023",
+      "title": "ChatGPT in scientific research",
+      "detail": "Workshop · UND School of Medicine & Health Sciences.",
+      "url": "",
+      "active": true
+    }
+  ],
+  "researchCategories": [
+    {
+      "id": "simulation",
+      "title": "Molecular Simulation",
+      "description": "",
+      "documents": [
+        {
+          "title": "Molecular modeling and simulation",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "https://doi.org/10.1016/j.cjche.2019.02.006",
+          "fallbackLabel": "Related paper"
+        },
+        {
+          "title": "Active fluids and statistical modeling",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "https://doi.org/10.1063/5.0096955",
+          "fallbackLabel": "Paper"
+        }
+      ]
+    },
+    {
+      "id": "epigenetics",
+      "title": "Epigenetics & 3D Genomics",
+      "description": "",
+      "documents": [
+        {
+          "title": "GATA3 and 3D genome organization",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
+        },
+        {
+          "title": "Nanopore concatemer sequencing",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
+        },
+        {
+          "title": "Cell-free DNA and interpretable machine learning",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "https://doi.org/10.1038/s42003-025-08920-0",
+          "fallbackLabel": "Paper"
+        }
+      ]
+    },
+    {
+      "id": "polymer-dynamics",
+      "title": "Polymer Dynamics",
+      "description": "",
+      "documents": [
+        {
+          "title": "Polymer translocation through nanopores",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "https://doi.org/10.1088/1361-648X/abb687",
+          "fallbackLabel": "Paper"
+        },
+        {
+          "title": "Polymer–pore interactions and charge effects",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "https://doi.org/10.1021/acs.jpcb.8b12301",
+          "fallbackLabel": "Paper"
+        }
+      ]
+    },
+    {
+      "id": "innovation",
+      "title": "Innovation",
+      "description": "",
+      "documents": [
+        {
+          "title": "Detectology: cell-free DNA applications",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "https://blogs.und.edu/und-today/2026/08/und-innovators-pitch-commercialization-ready-ideas-at-inaugural-lift-off-showcase/",
+          "fallbackLabel": "UND feature"
+        },
+        {
+          "title": "Innovation and commercialization",
+          "detail": "",
+          "url": "",
+          "fallbackUrl": "https://blogs.und.edu/press-releases/2026/05/launch-event-highlights-unds-growing-culture-of-innovation/",
+          "fallbackLabel": "UND feature"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Open chromatin-guided interpretable machine learning reveals cancer-specific chromatin features in cell-free DNA",
+      "authors": "S. D. Gunarathna, A. Nagornyuk, N. A. Belabbaci, R. Nguyen, B. Ghosh, S. Ganai, T. Lemke, C. Garry, M. Saotome, M. Yu, M. Takada, X. Wang, M. Takaku",
+      "journal": "Communications Biology 8, 1554",
+      "year": 2025,
+      "url": "https://doi.org/10.1038/s42003-025-08920-0",
+      "selected": true
+    },
+    {
+      "title": "Designing, synthesizing, and modeling active fluids",
+      "authors": "I. Essafri, B. Ghosh, C. Desgranges, J. Delhommelle",
+      "journal": "Physics of Fluids 34, 071301",
+      "year": 2022,
+      "url": "https://doi.org/10.1063/5.0096955",
+      "selected": true
+    },
+    {
+      "title": "Pulling a folded polymer through a nanopore",
+      "authors": "B. Ghosh, J. Sarabadani, S. Chaudhury, T. Ala-Nissila",
+      "journal": "Journal of Physics: Condensed Matter 33(1), 015101",
+      "year": 2021,
+      "url": "https://doi.org/10.1088/1361-648X/abb687",
+      "selected": true
+    },
+    {
+      "title": "Translocation dynamics of an asymmetrically charged polymer through a pore under the influence of different pH conditions",
+      "authors": "B. Ghosh, S. Chaudhury",
+      "journal": "The Journal of Physical Chemistry B 123, 4318–4323",
+      "year": 2019,
+      "url": "https://doi.org/10.1021/acs.jpcb.8b12301",
+      "selected": false
+    },
+    {
+      "title": "Molecular Dynamics Study on Growth of Carbon Dioxide and Methane Hydrate from a Seed Crystal",
+      "authors": "P. Nakate, B. Ghosh, S. Das, S. Roy, R. Kumar",
+      "journal": "Chinese Journal of Chemical Engineering 27, 2074–2080",
+      "year": 2019,
+      "url": "https://doi.org/10.1016/j.cjche.2019.02.006",
+      "selected": false
+    },
+    {
+      "title": "Influence of the location of attractive polymer–pore interactions on translocation dynamics",
+      "authors": "B. Ghosh, S. Chaudhury",
+      "journal": "The Journal of Physical Chemistry B 122, 360–368",
+      "year": 2018,
+      "url": "https://doi.org/10.1021/acs.jpcb.7b09208",
+      "selected": false
+    },
+    {
+      "title": "Dynamics of end-pulled polymer translocation through a nanopore",
+      "authors": "J. Sarabadani, B. Ghosh, S. Chaudhury, T. Ala-Nissila",
+      "journal": "Europhysics Letters 120, 38004",
+      "year": 2017,
+      "url": "https://doi.org/10.1209/0295-5075/120/38004",
+      "selected": false
+    },
+    {
+      "title": "Fluctuation theorems for total entropy production in generalized Langevin systems",
+      "authors": "B. Ghosh, S. Chaudhury",
+      "journal": "Physica A: Statistical Mechanics and its Applications 466, 133–139",
+      "year": 2017,
+      "url": "https://doi.org/10.1016/j.physa.2016.09.001",
+      "selected": false
+    }
+  ],
+  "timeline": [
+    {
+      "id": "und-biomedical-sciences",
+      "period": "present",
+      "title": "Postdoctoral Researcher",
+      "institution": "University of North Dakota",
+      "location": "Grand Forks, USA",
+      "detail": "Biomedical Sciences · Motoki Takaku.",
+      "url": "https://med.und.edu/education-training/biomedical-sciences/index.html"
+    },
+    {
+      "id": "iiser-tvm-postdoc",
+      "period": "2020–2021",
+      "title": "Postdoctoral Researcher",
+      "institution": "IISER Thiruvananthapuram",
+      "location": "Kerala, India",
+      "detail": "Chemistry · Mahesh Hariharan.",
+      "url": "https://chemistry.iisertvm.ac.in/"
+    },
+    {
+      "id": "iiser-pune-phd",
+      "period": "2014–2020",
+      "title": "Ph.D. in Computational and Theoretical Biophysics",
+      "institution": "IISER Pune",
+      "location": "Pune, India",
+      "detail": "Thesis: Some aspects of non-equilibrium polymer translocation dynamics.",
+      "url": "https://www.iiserpune.ac.in/research/department/chemistry"
+    },
+    {
+      "id": "iit-kanpur",
+      "period": "2011–2013",
+      "title": "M.Sc. in Chemical Sciences",
+      "institution": "IIT Kanpur",
+      "location": "Kanpur, India",
+      "detail": "",
+      "url": "https://iitk.ac.in/chm/about"
+    },
+    {
+      "id": "visva-bharati",
+      "period": "2008–2011",
+      "title": "B.Sc. (Hons.) in Chemical Sciences",
+      "institution": "Visva-Bharati University",
+      "location": "Santiniketan, India",
+      "detail": "With distinction.",
+      "url": "https://www.visvabharati.ac.in/home/chemistry/"
+    }
+  ],
+  "settings": {
+    "ga4MeasurementId": "G-X4SHV8J1WP",
+    "visitorEndpoint": "",
+    "updatesVisible": 7
+  }
+}

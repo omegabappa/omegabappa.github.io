@@ -44,7 +44,7 @@
       "title": "Single-molecule concatemers in 3D genome organization",
       "detail": "Poster · UND Epigenetics & Epigenomics Symposium.",
       "url": "",
-      "active": true
+      "active": false
     },
     {
       "date": "2026-05-06",
@@ -52,7 +52,7 @@
       "title": "Cancer-screening research at the gBETA showcase",
       "detail": "Circulating DNA extraction · gBETA Grand Forks.",
       "url": "https://www.linkedin.com/posts/gener8tor_gbeta-entrepreneurship-startups-activity-7460346561399652352-o1hT",
-      "active": true
+      "active": false
     },
     {
       "date": "2026-04-29",
@@ -60,7 +60,7 @@
       "title": "Detectology at the LAUNCH Showcase",
       "detail": "Early cancer detection research · UND Center for Innovation.",
       "url": "https://blogs.und.edu/press-releases/2026/05/launch-event-highlights-unds-growing-culture-of-innovation/",
-      "active": true
+      "active": false
     },
     {
       "date": "2026-04-27",
@@ -84,7 +84,7 @@
       "title": "When a pioneer transcription factor goes errant",
       "detail": "Research talk · UND Biomedical Sciences.",
       "url": "",
-      "active": true
+      "active": false
     },
     {
       "date": "2025-10-15",
@@ -92,7 +92,7 @@
       "title": "GATA3 and 3D chromatin architecture",
       "detail": "Poster · Epigenetics Society International Symposium, Chicago.",
       "url": "",
-      "active": true
+      "active": false
     },
     {
       "date": "2025-05-20",
@@ -100,7 +100,7 @@
       "title": "Pioneer-factor mutations and chromatin architecture",
       "detail": "Poster · UND Epigenetics & Epigenomics Symposium.",
       "url": "",
-      "active": true
+      "active": false
     },
     {
       "date": "2024-12-12",
@@ -108,7 +108,7 @@
       "title": "Nanopore concatemer sequencing at Asilomar",
       "detail": "Research talk · International Asilomar Chromatin Conference.",
       "url": "https://bioquicknews.com/2024-asilomar-chromatin-chromosomes-and-epigenetics-conference-session-4-chromosomes-and-nuclear-organization/#more-16991",
-      "active": true
+      "active": false
     },
     {
       "date": "2024-09-26",

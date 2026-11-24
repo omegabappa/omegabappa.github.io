@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#333333">
+  <meta name="description" content="Academic activities of Bappa Ghosh: research talks, scientific posters, innovation, teaching, and service. Explore by category or chronological timeline.">
+  <title>Activities | Bappa Ghosh</title>
+  <style>
+:root {
+  --ink: #202124; --muted: #62656a; --charcoal: #333333;
+  --panel: #f4f4f4; --line: #dddddd; --link: #154b92;
+  --hover: #FF69B4; --paper: #ffffff; --max: 1120px;
+  font-family: 'Roboto', sans-serif; color: var(--ink);
+  scroll-behavior: smooth;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: #ffffff; font: 16px/1.55 'Roboto', sans-serif; }
+a { color: var(--link); text-underline-offset: 3px; transition: color .24s ease; }
+a:hover, a:focus-visible { color: var(--hover); }
+button { font: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--hover); outline-offset: 3px; }
+[hidden] { display: none !important; }
+.skip-link { position: fixed; z-index: 40; top: -90px; left: 1rem; background: white; padding: .55rem .85rem; }
+.skip-link:focus { top: 10px; }
+.site-header { background: var(--charcoal); color: white; position: sticky; top: 0; z-index: 30; }
+.nav-inner { max-width: var(--max); margin: auto; padding: 9px 22px; }
+.nav-inner ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 22px; }
+.nav-inner a, .nav-inner .nav-unavailable { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: .36rem .4rem; color: #fff; text-decoration: none; font-weight: 500; font-size: .96rem; }
+.nav-inner a:hover, .nav-inner a:focus-visible { color: var(--hover); text-decoration: underline; }
+.nav-inner .nav-unavailable { color: #c2c2c2; }
+main { max-width: var(--max); margin: auto; padding: 0 clamp(1rem, 3.5vw, 2rem) 4rem; }
+.hero { padding: 2.4rem 0 1.75rem; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem 2.4rem; align-items: end; }
+.eyebrow { margin: 0 0 .35rem; color: var(--muted); text-transform: uppercase; letter-spacing: .14em; font-size: .74rem; font-weight: 700; }
+h1 { margin: 0; color: #161616; font-size: clamp(2rem, 4vw, 2.85rem); letter-spacing: -.035em; line-height: 1.15; font-weight: 700; }
+.hero-sub { margin: .75rem 0 0; max-width: 61ch; color: #53565b; font-size: 1rem; }
+.hero-stat { text-align: right; border-left: 1px solid var(--line); padding-left: 1.45rem; }
+.hero-stat strong { display: block; color: #242424; font-size: 1.8rem; line-height: 1; font-weight: 700; font-variant-numeric: tabular-nums; }
+.hero-stat span { font-size: .78rem; color: var(--muted); }
+.back-link { display: inline-flex; align-items: center; gap: .35rem; margin-top: 1rem; font-size: .91rem; text-decoration: none; }
+.filters { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: clamp(.85rem, 2.7vw, 1.3rem); }
+.filters-header { display: flex; flex-wrap: wrap; gap: .25rem 1.4rem; justify-content: space-between; align-items: baseline; margin: 0 0 .9rem; }
+.filters-header h2 { margin: 0; font-size: 1.09rem; font-weight: 700; color: #222; }
+.filters-header p { margin: 0; color: var(--muted); font-size: .86rem; }
+.filter-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .65rem; }
+.filter-button { min-width: 0; display: flex; flex-direction: column; text-align: left; justify-content: space-between; align-items: stretch; min-height: 107px; background: white; padding: .85rem .95rem .8rem; border: 1px solid #d8d8d8; border-radius: 8px; color: #282828; transition: border-color .22s ease, box-shadow .22s ease, background .22s ease, color .22s ease, transform .22s ease; }
+.filter-button:hover { border-color: var(--hover); box-shadow: 0 4px 11px rgba(0,0,0,.045); transform: translateY(-2px); }
+.filter-button[aria-pressed="true"] { background: var(--charcoal); border-color: var(--charcoal); color: white; }
+.filter-button[aria-pressed="true"]:hover { border-color: var(--hover); }
+.filter-button-top { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.filter-symbol { width: 27px; height: 27px; display: grid; place-items: center; border-radius: 6px; border: 1px solid #e2e2e2; color: #444; }
+.filter-button[aria-pressed="true"] .filter-symbol { color: white; border-color: #858585; }
+.filter-symbol svg { width: 16px; height: 16px; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+.filter-count { font-size: 1.43rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.filter-name { margin-top: .6rem; font-size: .89rem; font-weight: 600; line-height: 1.25; }
+.filter-hint { font-size: .76rem; color: #6c6c6c; margin-top: .25rem; }
+.filter-button[aria-pressed="true"] .filter-hint { color: #d0d0d0; }
+.no-js .filters { display: none; }
+.timeline-heading { display: flex; justify-content: space-between; gap: 1rem; align-items: end; margin: 2rem 0 1.15rem; padding-bottom: .85rem; border-bottom: 1px solid var(--line); }
+.timeline-heading h2 { margin: 0; font-size: 1.43rem; font-weight: 700; letter-spacing: -.02em; }
+.timeline-heading p { margin: .2rem 0 0; font-size: .9rem; color: var(--muted); max-width: 60ch; }
+.result-count { font-size: .8rem; border-radius: 20px; border: 1px solid #dedede; background: #f4f4f4; white-space: nowrap; color: #444; padding: .3rem .7rem; font-variant-numeric: tabular-nums; }
+.timeline-layout { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: clamp(.75rem, 2.8vw, 1.8rem); align-items: start; }
+.year-index { position: sticky; top: 82px; padding-top: .3rem; }
+.year-index-label { margin: 0 0 .65rem; color: #787878; font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; }
+.year-index-nav { display: flex; flex-direction: column; align-items: stretch; gap: 2px; }
+.year-link { display: flex; justify-content: space-between; gap: .4rem; font-size: .87rem; padding: .24rem .4rem; color: #555; border-left: 2px solid transparent; text-decoration: none; border-radius: 2px; }
+.year-link:hover, .year-link:focus-visible { border-left-color: var(--hover); background: #f4f4f4; }
+.year-link span { color: #888; font-size: .78rem; }
+.timeline-surface { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: clamp(.9rem, 2.8vw, 1.7rem); min-height: 160px; }
+.year-section { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 1.25rem; scroll-margin-top: 88px; }
+.year-section + .year-section { margin-top: 1.45rem; }
+.year-label h3 { margin: 0; font-size: 1.06rem; color: #333; font-weight: 700; line-height: 1.25; }
+.year-label span { display: block; margin-top: .28rem; color: #8a8a8a; font-size: .74rem; }
+.year-events { position: relative; min-width: 0; list-style: none; margin: 0; padding: 0 0 0 1.4rem; border-left: 2px solid #cecece; }
+.activity-card { position: relative; list-style: none; padding: .9rem 1.05rem .88rem; margin: 0 0 .65rem; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,.025); contain: layout style; }
+.activity-card:last-child { margin-bottom: 0; }
+.activity-card::before { content: ''; position: absolute; left: -1.82rem; top: 1.15rem; width: .68rem; height: .68rem; border: 2px solid var(--charcoal); border-radius: 50%; background: var(--panel); }
+.activity-card:hover { border-color: #c8c8c8; }
+.card-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .2rem 1rem; align-items: center; margin-bottom: .3rem; }
+.card-date { font-size: .78rem; color: #666; font-weight: 600; }
+.card-type { font-size: .72rem; color: #6a6a6a; border: 1px solid #e8e8e8; border-radius: 20px; padding: .12rem .5rem; }
+.activity-card h4 { margin: 0; font-size: .975rem; line-height: 1.42; font-weight: 650; color: #202124; overflow-wrap: anywhere; }
+.activity-card h4 a { color: var(--link); text-decoration: none; }
+.activity-card h4 a:hover, .activity-card h4 a:focus-visible { color: var(--hover); text-decoration: underline; }
+.activity-detail { color: #62656a; font-size: .86rem; line-height: 1.48; margin: .32rem 0 0; overflow-wrap: anywhere; }
+.timeline-footnote { font-size: .84rem; color: var(--muted); margin: 1.1rem 0 0; }
+.empty-state { color: var(--muted); padding: 1.5rem; text-align: center; }
+.site-footer { background: var(--charcoal); color: white; padding: 1rem; }
+.site-footer > div { max-width: var(--max); display: flex; justify-content: space-between; align-items: center; gap: .6rem; flex-wrap: wrap; margin: auto; }
+.site-footer a { color: white; }
+.site-footer a:hover { color: var(--hover); }
+.ghost { z-index: 1000; pointer-events: none !important; position: fixed !important; margin: 0 !important; transform-origin: center center; }
+@media (max-width: 780px) {
+  .hero { grid-template-columns: 1fr; padding-top: 1.65rem; }
+  .hero-stat { display: flex; align-items: baseline; text-align: left; gap: .4rem; border-left: none; padding-left: 0; }
+  .hero-stat strong { font-size: 1.35rem; }
+  .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .timeline-layout { grid-template-columns: 1fr; }
+  .year-index { position: static; padding: 0; }
+  .year-index-nav { flex-direction: row; flex-wrap: nowrap; overflow-x: auto; gap: .25rem; padding-bottom: .4rem; }
+  .year-index-label { margin-bottom: .25rem; }
+  .year-link { white-space: nowrap; gap: .35rem; border-left: none; border-bottom: 2px solid transparent; }
+  .year-link:hover, .year-link:focus-visible { border-bottom-color: var(--hover); border-left-color: transparent; }
+}
+@media (max-width: 430px) {
+  .nav-inner { padding: .35rem .75rem; }
+  .nav-inner ul { display: grid; grid-template-columns: 1fr 1.65fr; gap: .1rem; }
+  .nav-inner a, .nav-inner .nav-unavailable { font-size: .83rem; min-height: 36px; }
+  main { padding-inline: .75rem; }
+  .filter-button { min-height: 100px; padding: .75rem .7rem; }
+  .filter-name { font-size: .82rem; }
+  .filter-hint { font-size: .72rem; }
+  .year-section { grid-template-columns: 1fr; gap: .5rem; }
+  .year-label { display: flex; align-items: baseline; gap: .6rem; }
+  .year-label span { display: inline; margin: 0; }
+  .timeline-surface { padding: .85rem .7rem .85rem .9rem; }
+  .year-events { padding-left: 1rem; }
+  .activity-card { padding: .75rem .75rem; }
+  .activity-card::before { left: -1.34rem; }
+  .activity-card h4 { font-size: .95rem; }
+  .timeline-heading { align-items: start; }
+  .result-count { font-size: .74rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+/* Prevent the horizontal year navigator from widening narrow screens. */
+.timeline-layout > *, .timeline-surface, .year-index, .year-section > * { min-width: 0; }
+.year-index-nav { max-width: 100%; }
+
+</style>
+</head>
+<body data-preview="false">
+<a class="skip-link" href="#timeline-heading">Skip to activities</a>
+<header class="site-header"><nav class="nav-inner" aria-label="Main navigation"><ul>
+  <li><a href="index.html#about">About</a></li>
+  <li><a href="index.html#research">Research &amp; Activities</a></li>
+  <li><a href="index.html#publications">Publications</a></li>
+  <li><span id="cv-unavailable" class="nav-unavailable" title="Add Google Drive CV URL in content.json">CV</span></li>
+</ul></nav></header>
+<main>
+<section class="hero" aria-labelledby="activities-title">
+  <div><p class="eyebrow">Academic portfolio · 2015–2026</p>
+  <h1 id="activities-title">Activities</h1>
+  <p class="hero-sub">A chronological record of research presentations, scientific meetings, biotechnology innovation, teaching, and academic service. Explore the complete timeline or focus on one area.</p>
+  <a class="back-link" href="index.html#updates">&larr; Back to homepage</a></div>
+  <div class="hero-stat" aria-label="48 recorded activities"><strong id="total-count">48</strong><span>recorded activities</span></div>
+</section>
+<section class="filters" aria-labelledby="explore-heading">
+  <div class="filters-header"><h2 id="explore-heading">Explore by activity</h2><p>Select a group to rearrange the timeline</p></div>
+  <nav aria-label="Filter activities" class="filter-grid"><button type="button" class="filter-button" data-focus="all" aria-pressed="true"><span class="filter-button-top"><span class="filter-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span><span class="filter-count" data-count>48</span></span><span><span class="filter-name" style="display:block">All activities</span><span class="filter-hint" style="display:block">Complete record</span></span></button>
+<button type="button" class="filter-button" data-focus="talks" aria-pressed="false"><span class="filter-button-top"><span class="filter-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-5a4 4 0 0 0 8 0m-4 8v3m-5 0h10M7 8v2a5 5 0 0 0 10 0V8"/></svg></span><span class="filter-count" data-count>18</span></span><span><span class="filter-name" style="display:block">Talks &amp; presentations</span><span class="filter-hint" style="display:block">Lectures and seminars</span></span></button>
+<button type="button" class="filter-button" data-focus="posters" aria-pressed="false"><span class="filter-button-top"><span class="filter-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v12H4zM8 21h8M12 17v4M7 9h10M7 12h7"/></svg></span><span class="filter-count" data-count>14</span></span><span><span class="filter-name" style="display:block">Posters &amp; meetings</span><span class="filter-hint" style="display:block">Research and conferences</span></span></button>
+<button type="button" class="filter-button" data-focus="innovation" aria-pressed="false"><span class="filter-button-top"><span class="filter-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M8 14c-1.5-1.3-2-2.8-2-4.3a6 6 0 0 1 12 0c0 1.5-.5 3-2 4.3-.8.7-1 1.7-1 2.5H9c0-.8-.2-1.8-1-2.5Z"/></svg></span><span class="filter-count" data-count>3</span></span><span><span class="filter-name" style="display:block">Innovation</span><span class="filter-hint" style="display:block">Translation and startups</span></span></button>
+<button type="button" class="filter-button" data-focus="teaching" aria-pressed="false"><span class="filter-button-top"><span class="filter-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5c3-1.6 6-1.7 9 0 3-1.7 6-1.6 9 0v13c-3-1.6-6-1.7-9 0-3-1.7-6-1.6-9 0zM12 5.5v13"/></svg></span><span class="filter-count" data-count>4</span></span><span><span class="filter-name" style="display:block">Teaching &amp; mentoring</span><span class="filter-hint" style="display:block">Workshops and guidance</span></span></button>
+<button type="button" class="filter-button" data-focus="service" aria-pressed="false"><span class="filter-button-top"><span class="filter-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8-4.7-8-10.8a4.7 4.7 0 0 1 8-3.3 4.7 4.7 0 0 1 8 3.3C20 16.3 12 21 12 21z"/></svg></span><span class="filter-count" data-count>9</span></span><span><span class="filter-name" style="display:block">Service &amp; outreach</span><span class="filter-hint" style="display:block">Judging and engagement</span></span></button></nav>
+</section>
+<div class="timeline-heading" id="timeline-heading">
+  <div><h2 id="view-title">Full chronological timeline</h2><p id="view-description">Every activity, organized by year from newest to oldest.</p></div>
+  <span class="result-count" id="results-count">48 activities</span>
+</div>
+<div class="timeline-layout">
+  <aside class="year-index" aria-label="Jump to year"><p class="year-index-label">Jump to year</p><nav class="year-index-nav" id="year-links"><a class="year-link" href="#year-2026"><strong>2026</strong><span>9</span></a>
+<a class="year-link" href="#year-2025"><strong>2025</strong><span>7</span></a>
+<a class="year-link" href="#year-2024"><strong>2024</strong><span>8</span></a>
+<a class="year-link" href="#year-2023"><strong>2023</strong><span>6</span></a>
+<a class="year-link" href="#year-2022"><strong>2022</strong><span>4</span></a>
+<a class="year-link" href="#year-2021"><strong>2021</strong><span>4</span></a>
+<a class="year-link" href="#year-2019"><strong>2019</strong><span>2</span></a>
+<a class="year-link" href="#year-2018"><strong>2018</strong><span>4</span></a>
+<a class="year-link" href="#year-2017"><strong>2017</strong><span>1</span></a>
+<a class="year-link" href="#year-2016"><strong>2016</strong><span>1</span></a>
+<a class="year-link" href="#year-2015"><strong>2015</strong><span>1</span></a>
+<a class="year-link" href="#year-Undated"><strong>Other</strong><span>1</span></a></nav></aside>
+  <section class="timeline-surface" aria-label="Chronological activity list" id="activity-results"><section class="year-section" id="year-2026" data-year="2026" aria-label="Activities in 2026"><div class="year-label"><h3>2026</h3><span>9 entries</span></div><ol class="year-events"><li class="activity-card" data-key="activity-0" data-date="2026-08-29" data-kind="Research talk"><div class="card-meta"><time class="card-date" datetime="2026-08-29">Aug 2026</time><span class="card-type">Research talk</span></div><h4>Multiway 3D Chromatin Interactions in Breast Cancer</h4><p class="activity-detail">Talk at the UND Biomedical Sciences Retreat, Turtle River State Park, North Dakota.</p></li>
+<li class="activity-card" data-key="activity-1" data-date="2026-08-20" data-kind="Innovation talk"><div class="card-meta"><time class="card-date" datetime="2026-08-20">Aug 2026</time><span class="card-type">Innovation talk</span></div><h4><a href="https://blogs.und.edu/und-today/2026/08/und-innovators-pitch-commercialization-ready-ideas-at-inaugural-lift-off-showcase/" target="_blank" rel="noopener noreferrer">Detectology: Cell-Free DNA Recovery from Small Blood Samples for Cancer-Related Applications</a></h4><p class="activity-detail">Presented Detectology at the inaugural UND Lift-Off Showcase, Grand Forks.</p></li>
+<li class="activity-card" data-key="activity-2" data-date="2026-05-27" data-kind="Panel"><div class="card-meta"><time class="card-date" datetime="2026-05-27">May 2026</time><span class="card-type">Panel</span></div><h4>Postdoctoral Career Guide Panel</h4><p class="activity-detail">Postdoctoral Career Guide Panel, UND School of Medicine &amp; Health Sciences; career guidance for trainees.</p></li>
+<li class="activity-card" data-key="activity-3" data-date="2026-05-20" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2026-05-20">May 2026</time><span class="card-type">Research poster</span></div><h4>Insights from Single-Molecule Concatemers in 3D Genome Organization</h4><p class="activity-detail">Poster at the UND Epigenetics &amp; Epigenomics Symposium; dates follow the uploaded CV.</p></li>
+<li class="activity-card" data-key="activity-4" data-date="2026-05-06" data-kind="Innovation talk"><div class="card-meta"><time class="card-date" datetime="2026-05-06">May 2026</time><span class="card-type">Innovation talk</span></div><h4><a href="https://www.linkedin.com/posts/gener8tor_gbeta-entrepreneurship-startups-activity-7460346561399652352-o1hT" target="_blank" rel="noopener noreferrer">Circulating Blood DNA Extraction for Cancer Screening</a></h4><p class="activity-detail">Presented at the gBETA Grand Forks Spring Showcase, Olive Ann Hotel.</p></li>
+<li class="activity-card" data-key="activity-5" data-date="2026-04-29" data-kind="Innovation talk"><div class="card-meta"><time class="card-date" datetime="2026-04-29">Apr 2026</time><span class="card-type">Innovation talk</span></div><h4><a href="https://blogs.und.edu/press-releases/2026/05/launch-event-highlights-unds-growing-culture-of-innovation/" target="_blank" rel="noopener noreferrer">Developing Faster, More Accessible Methods for Early Cancer Detection Through Small Blood Samples</a></h4><p class="activity-detail">Presentation at the UND Center for Innovation LAUNCH Showcase, Grand Forks.</p></li>
+<li class="activity-card" data-key="activity-6" data-date="2026-04-27" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2026-04-27">Apr 2026</time><span class="card-type">Service</span></div><h4><a href="https://med.und.edu/research/frank-low.html" target="_blank" rel="noopener noreferrer">46th Frank Low Research Day</a></h4><p class="activity-detail">Volunteer judge at the 46th Frank Low Research Day, UND School of Medicine &amp; Health Sciences.</p></li>
+<li class="activity-card" data-key="activity-7" data-date="2026-04-13" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2026-04-13">Apr 2026</time><span class="card-type">Research poster</span></div><h4><a href="https://www.de-ctr.org/save-the-date-idea-state-cancer-trainee-research-conference/" target="_blank" rel="noopener noreferrer">Multiway Chromatin Interactions Reveal Pioneer Factor-Driven Genome Restructuring in Breast Cancer</a></h4><p class="activity-detail">Poster at the IDeA State Cancer Trainee Research Conference, Morgantown, West Virginia.</p></li>
+<li class="activity-card" data-key="activity-8" data-date="2026-03-27" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2026-03-27">Mar 2026</time><span class="card-type">Service</span></div><h4><a href="https://blogs.und.edu/for-your-health/2026/02/26/judges-needed-for-north-dakota-state-science-and-engineering-fair-on-march-27/" target="_blank" rel="noopener noreferrer">North Dakota State Science &amp; Engineering Fair</a></h4><p class="activity-detail">Volunteer judge at the North Dakota State Science and Engineering Fair, UND.</p></li></ol></section>
+<section class="year-section" id="year-2025" data-year="2025" aria-label="Activities in 2025"><div class="year-label"><h3>2025</h3><span>7 entries</span></div><ol class="year-events"><li class="activity-card" data-key="activity-9" data-date="2025-11-19" data-kind="Research talk"><div class="card-meta"><time class="card-date" datetime="2025-11-19">Nov 2025</time><span class="card-type">Research talk</span></div><h4>When a Pioneer Transcription Factor Goes Errant: Consequences for 3D Genome Architecture in Breast Cancer Cells</h4><p class="activity-detail">Department of Biomedical Sciences seminar, University of North Dakota.</p></li>
+<li class="activity-card" data-key="activity-10" data-date="2025-10-15" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2025-10-15">Oct 2025</time><span class="card-type">Research poster</span></div><h4><a href="https://epigeneticssocietyint.com/conference/biannual" target="_blank" rel="noopener noreferrer">Rewiring of 3D Chromatin Architecture by the Pioneer Factor GATA3 in Breast Cancer</a></h4><p class="activity-detail">Epigenetics Society International Symposium, Northwestern University, Chicago.</p></li>
+<li class="activity-card" data-key="activity-11" data-date="2025-09-27" data-kind="Research talk"><div class="card-meta"><time class="card-date" datetime="2025-09-27">Sep 2025</time><span class="card-type">Research talk</span></div><h4>Rewiring of 3D Chromatin Architecture by the Pioneer Factor GATA3 in Breast Cancer</h4><p class="activity-detail">Department of Biomedical Sciences Retreat, University of North Dakota.</p></li>
+<li class="activity-card" data-key="activity-12" data-date="2025-09-27" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2025-09-27">Sep 2025</time><span class="card-type">Research poster</span></div><h4>Rewiring of 3D Chromatin Architecture by the Pioneer Factor GATA3 in Breast Cancer</h4><p class="activity-detail">Department of Biomedical Sciences Retreat, University of North Dakota.</p></li>
+<li class="activity-card" data-key="activity-13" data-date="2025-05-20" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2025-05-20">May 2025</time><span class="card-type">Research poster</span></div><h4>Influence of cancer-derived mutations in a pioneer factor on three-dimensional chromatin architecture assessed by nanopore concatemer sequencing</h4><p class="activity-detail">UND Epigenetics &amp; Epigenomics Symposium; nanopore concatemer sequencing and pioneer-factor mutations.</p></li>
+<li class="activity-card" data-key="activity-14" data-date="2025-04-22" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2025-04-22">Apr 2025</time><span class="card-type">Service</span></div><h4><a href="https://med.und.edu/research/frank-low.html" target="_blank" rel="noopener noreferrer">45th Frank Low Research Day</a></h4><p class="activity-detail">Volunteer judge at the 45th Frank Low Research Day, UND.</p></li>
+<li class="activity-card" data-key="activity-15" data-date="2025-03-31" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2025-03-31">Mar 2025</time><span class="card-type">Service</span></div><h4><a href="https://engineering.und.edu/outreach/k-12/ndssef.html" target="_blank" rel="noopener noreferrer">North Dakota State Science &amp; Engineering Fair</a></h4><p class="activity-detail">Volunteer judge at the North Dakota State Science and Engineering Fair, UND.</p></li></ol></section>
+<section class="year-section" id="year-2024" data-year="2024" aria-label="Activities in 2024"><div class="year-label"><h3>2024</h3><span>8 entries</span></div><ol class="year-events"><li class="activity-card" data-key="activity-16" data-date="2024-12-12" data-kind="Research talk"><div class="card-meta"><time class="card-date" datetime="2024-12-12">12-15 Dec 2024</time><span class="card-type">Research talk</span></div><h4><a href="https://asilomarchromatin.com/" target="_blank" rel="noopener noreferrer">Unraveling the Effects of Cancer-Derived Pioneer Factor Mutations on 3D Chromatin Architecture Using Nanopore Concatemer Sequencing</a></h4><p class="activity-detail">46th International Asilomar Chromatin, Chromosomes and Epigenetics Conference, Pacific Grove, California.</p></li>
+<li class="activity-card" data-key="activity-17" data-date="2024-10-23" data-kind="Research talk"><div class="card-meta"><time class="card-date" datetime="2024-10-23">Oct 2024</time><span class="card-type">Research talk</span></div><h4>Sequencing at home: what can we learn from 3rd generation sequencing?</h4><p class="activity-detail">Department of Biomedical Sciences seminar, University of North Dakota.</p></li>
+<li class="activity-card" data-key="activity-18" data-date="2024-09-26" data-kind="Invited talk"><div class="card-meta"><time class="card-date" datetime="2024-09-26">Sep 2024</time><span class="card-type">Invited talk</span></div><h4><a href="https://www.aiche.org/conferences/ragsab/2024/technical-program" target="_blank" rel="noopener noreferrer">Nanopore DNA Sequencing to understand Chromatin 3D Map of Cancer Cells: Big Data, Artificial Intelligence and Promises</a></h4><p class="activity-detail">NSF-supported AIChE RAGSAB workshop, California; chromatin maps, sequencing and artificial intelligence.</p></li>
+<li class="activity-card" data-key="activity-19" data-date="2024-05-13" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2024-05-13">May 2024</time><span class="card-type">Research poster</span></div><h4>Influence of cancer-derived mutations in a pioneer factor on three-dimensional chromatin architecture assessed by nanopore concatemer sequencing</h4><p class="activity-detail">UND Epigenetics &amp; Epigenomics Symposium.</p></li>
+<li class="activity-card" data-key="activity-20" data-date="2024-04-30" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2024-04-30">Apr 2024</time><span class="card-type">Research poster</span></div><h4><a href="https://meetings.cshl.edu/abstracts.aspx?meet=NUCLEUS&amp;year=24" target="_blank" rel="noopener noreferrer">Impact of Cancer-derived Pioneer Factor Mutation on 3D Chromatin Organization via Nanopore Concatemer Sequencing</a></h4><p class="activity-detail">Genome Organization &amp; Nuclear Function meeting, Cold Spring Harbor Laboratory, New York.</p></li>
+<li class="activity-card" data-key="activity-21" data-date="2024-04-11" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2024-04-11">Apr 2024</time><span class="card-type">Service</span></div><h4><a href="https://med.und.edu/research/frank-low.html" target="_blank" rel="noopener noreferrer">44th Frank Low Research Day</a></h4><p class="activity-detail">Volunteer judge at the 44th Frank Low Research Day, UND.</p></li>
+<li class="activity-card" data-key="activity-22" data-date="2024-04-05" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2024-04-05">Apr 2024</time><span class="card-type">Service</span></div><h4><a href="https://engineering.und.edu/outreach/k-12/ndssef.html" target="_blank" rel="noopener noreferrer">North Dakota State Science &amp; Engineering Fair</a></h4><p class="activity-detail">Volunteer judge at the North Dakota State Science and Engineering Fair, UND.</p></li>
+<li class="activity-card" data-key="activity-23" data-date="2024-03-06" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2024-03-06">Mar 2024</time><span class="card-type">Service</span></div><h4>Northeast Regional Science &amp; Engineering Fair</h4><p class="activity-detail">Volunteer judge at the Northeast Regional Science &amp; Engineering Fair, UND.</p></li></ol></section>
+<section class="year-section" id="year-2023" data-year="2023" aria-label="Activities in 2023"><div class="year-label"><h3>2023</h3><span>6 entries</span></div><ol class="year-events"><li class="activity-card" data-key="activity-24" data-date="2023-10-21" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2023-10-21">Oct 2023</time><span class="card-type">Research poster</span></div><h4>Investigating 3D Chromatin Organization through Nanopore Concatemer Sequencing in Breast Cancer Cells</h4><p class="activity-detail">Biomedical Sciences 10th Anniversary and Retreat, University of North Dakota.</p></li>
+<li class="activity-card" data-key="activity-25" data-date="2023-07-20" data-kind="Workshop"><div class="card-meta"><time class="card-date" datetime="2023-07-20">Jul 2023</time><span class="card-type">Workshop</span></div><h4>How to use Artificial Intelligence - ChatGPT for biomedical research?</h4><p class="activity-detail">Led a workshop on using ChatGPT in biomedical research at the University of North Dakota.</p></li>
+<li class="activity-card" data-key="activity-26" data-date="2023-06-11" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2023-06-11">Jun 2023</time><span class="card-type">Research poster</span></div><h4>Investigating 3D Chromatin Organization through Nanopore Concatemer Sequencing of Breast Cancer Cells by GATA3 Mutations</h4><p class="activity-detail">Gordon Research Conference on Genome Architecture in Cell Fate and Disease, Ventura, California.</p></li>
+<li class="activity-card" data-key="activity-27" data-date="2023-05-18" data-kind="Research poster"><div class="card-meta"><time class="card-date" datetime="2023-05-18">May 2023</time><span class="card-type">Research poster</span></div><h4>Investigating 3D Chromatin Organization through Nanopore Concatemer Sequencing of Breast Cancer Cells by GATA3 Mutations</h4><p class="activity-detail">Annual Epigenetics &amp; Epigenomics Symposium, University of North Dakota.</p></li>
+<li class="activity-card" data-key="activity-28" data-date="2023-04-13" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2023-04-13">Apr 2023</time><span class="card-type">Service</span></div><h4><a href="https://med.und.edu/research/frank-low.html" target="_blank" rel="noopener noreferrer">43rd Frank Low Research Day</a></h4><p class="activity-detail">Volunteer judge at the 43rd Frank Low Research Day, UND.</p></li>
+<li class="activity-card" data-key="activity-29" data-date="2023-03-08" data-kind="Service"><div class="card-meta"><time class="card-date" datetime="2023-03-08">Mar 2023</time><span class="card-type">Service</span></div><h4><a href="https://engineering.und.edu/outreach/k-12/ndssef.html" target="_blank" rel="noopener noreferrer">North Dakota State Science &amp; Engineering Fair</a></h4><p class="activity-detail">Volunteer judge at the North Dakota State Science and Engineering Fair, UND.</p></li></ol></section>
+<section class="year-section" id="year-2022" data-year="2022" aria-label="Activities in 2022"><div class="year-label"><h3>2022</h3><span>4 entries</span></div><ol class="year-events"><li class="activity-card" data-key="activity-30" data-date="2022-12-12" data-kind="Conference"><div class="card-meta"><time class="card-date" datetime="2022-12-12">Dec 2022</time><span class="card-type">Conference</span></div><h4>National IDeA Symposium of Biomedical Research Excellence – NISBRE 2022 – December 12-14, Virtual Conference.</h4><p class="activity-detail">Attended the National IDeA Symposium of Biomedical Research Excellence (NISBRE), virtually.</p></li>
+<li class="activity-card" data-key="activity-31" data-date="2022-12-08" data-kind="Conference"><div class="card-meta"><time class="card-date" datetime="2022-12-08">Dec 2022</time><span class="card-type">Conference</span></div><h4>44th Annual International Asilomar Chromatin Chromosomes and Epigenetics Conference, December 8 – 10, 2022, Virtual Conference.</h4><p class="activity-detail">Attended the 44th International Asilomar Chromatin, Chromosomes and Epigenetics Conference, virtually.</p></li>
+<li class="activity-card" data-key="activity-32" data-date="2022-12-05" data-kind="Conference"><div class="card-meta"><time class="card-date" datetime="2022-12-05">Dec 2022</time><span class="card-type">Conference</span></div><h4>Nanopore Community Meeting 2022 (NCM 2022), December 5-7, 2022, Virtual Conference.</h4><p class="activity-detail">Attended Nanopore Community Meeting 2022, virtually.</p></li>
+<li class="activity-card" data-key="activity-33" data-date="2022-03" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2022-03">Mar 2022</time><span class="card-type">Research presentation</span></div><h4>A comparative study of algorithms to find information entropy in equilibrium and non-equilibrium systems</h4><p class="activity-detail">APS March Meeting, Chicago; information entropy in equilibrium and nonequilibrium systems.</p></li></ol></section>
+<section class="year-section" id="year-2021" data-year="2021" aria-label="Activities in 2021"><div class="year-label"><h3>2021</h3><span>4 entries</span></div><ol class="year-events"><li class="activity-card" data-key="activity-34" data-date="2021" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2021">2021</time><span class="card-type">Research presentation</span></div><h4>Self-organization in Active Matter: From Living Crystals to Cells and Living Systems</h4><p class="activity-detail">Annual North Dakota Biomedical Engineering Symposium, University of North Dakota.</p></li>
+<li class="activity-card" data-key="activity-35" data-date="2021" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2021">2021</time><span class="card-type">Research presentation</span></div><h4>Polymer Translocation: A few Investigations from Computer Simulations</h4><p class="activity-detail">Huenfeld workshop on Computer Simulation and Theory of Macromolecules, Germany.</p></li>
+<li class="activity-card" data-key="activity-36" data-date="2021" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2021">2021</time><span class="card-type">Research presentation</span></div><h4>Pulling a Folded Polymer through a Nanopore</h4><p class="activity-detail">Frontiers in Ion Channels and Nanopores meeting, Sapienza University of Rome.</p></li>
+<li class="activity-card" data-key="activity-37" data-date="2021" data-kind="Teaching"><div class="card-meta"><time class="card-date" datetime="2021">2021</time><span class="card-type">Teaching</span></div><h4>Advanced Molecular Dynamics Simulation: A SAARC Regional Summer School 2021</h4><p class="activity-detail">Designed and taught molecular-dynamics training for 70+ participants, including GROMACS and NAMD.</p></li></ol></section>
+<section class="year-section" id="year-2019" data-year="2019" aria-label="Activities in 2019"><div class="year-label"><h3>2019</h3><span>2 entries</span></div><ol class="year-events"><li class="activity-card" data-key="activity-38" data-date="2019" data-kind="Research talk"><div class="card-meta"><time class="card-date" datetime="2019">2019</time><span class="card-type">Research talk</span></div><h4>Role of Polymer-Pore Interactions in Translocation dynamics</h4><p class="activity-detail">Soft Matter and Statistical Mechanics meeting, IISER Pune.</p></li>
+<li class="activity-card" data-key="activity-39" data-date="2019" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2019">2019</time><span class="card-type">Research presentation</span></div><h4>Role of Polymer-Pore Interactions in Translocation dynamics</h4><p class="activity-detail">Multi-scale Simulation &amp; Mathematical Modelling of Complex Biological Systems, New Delhi.</p></li></ol></section>
+<section class="year-section" id="year-2018" data-year="2018" aria-label="Activities in 2018"><div class="year-label"><h3>2018</h3><span>4 entries</span></div><ol class="year-events"><li class="activity-card" data-key="activity-40" data-date="2018-12-20" data-kind="Teaching"><div class="card-meta"><time class="card-date" datetime="2018-12-20">Dec 2018</time><span class="card-type">Teaching</span></div><h4>Molecular Modeling in Chemistry</h4><p class="activity-detail">Helped teach a Molecular Modeling in Chemistry workshop at IISER Pune.</p></li>
+<li class="activity-card" data-key="activity-41" data-date="2018" data-kind="Research talk"><div class="card-meta"><time class="card-date" datetime="2018">2018</time><span class="card-type">Research talk</span></div><h4>Role of Polymer-Pore Interactions in Translocation dynamics</h4><p class="activity-detail">Puri Polymer Conference, India.</p></li>
+<li class="activity-card" data-key="activity-42" data-date="2018" data-kind="Research talk"><div class="card-meta"><time class="card-date" datetime="2018">2018</time><span class="card-type">Research talk</span></div><h4>Influence of the Location of Attractive Polymer-Pore Interactions on Translocation Dynamics</h4><p class="activity-detail">Chemsymphoria, IISER Pune.</p></li>
+<li class="activity-card" data-key="activity-43" data-date="2018" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2018">2018</time><span class="card-type">Research presentation</span></div><h4>Dynamics of End-pulled polymer Translocation Through a Nanopore</h4><p class="activity-detail">SPSI-MACRO meeting, IISER Pune.</p></li></ol></section>
+<section class="year-section" id="year-2017" data-year="2017" aria-label="Activities in 2017"><div class="year-label"><h3>2017</h3><span>1 entry</span></div><ol class="year-events"><li class="activity-card" data-key="activity-44" data-date="2017" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2017">2017</time><span class="card-type">Research presentation</span></div><h4>Influence of the Location of Attractive Polymer-Pore Interactions on Translocation Dynamics</h4><p class="activity-detail">Recent Advances in Modeling Rare Events (RARE), Agra.</p></li></ol></section>
+<section class="year-section" id="year-2016" data-year="2016" aria-label="Activities in 2016"><div class="year-label"><h3>2016</h3><span>1 entry</span></div><ol class="year-events"><li class="activity-card" data-key="activity-45" data-date="2016" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2016">2016</time><span class="card-type">Research presentation</span></div><h4>End-pulled Polymer Translocation through a Nanopore</h4><p class="activity-detail">15th Indian Theoretical Chemistry Symposium, University of Hyderabad.</p></li></ol></section>
+<section class="year-section" id="year-2015" data-year="2015" aria-label="Activities in 2015"><div class="year-label"><h3>2015</h3><span>1 entry</span></div><ol class="year-events"><li class="activity-card" data-key="activity-46" data-date="2015" data-kind="Research presentation"><div class="card-meta"><time class="card-date" datetime="2015">2015</time><span class="card-type">Research presentation</span></div><h4>Entropy Production Theorems in Systems with Memory</h4><p class="activity-detail">Physical and Biophysical Chemistry: Theory and Experiment, IIT Bombay.</p></li></ol></section>
+<section class="year-section" id="year-Undated" data-year="Undated" aria-label="Activities in Undated"><div class="year-label"><h3>Undated</h3><span>1 entry</span></div><ol class="year-events"><li class="activity-card" data-key="activity-47" data-date="" data-kind="Conference"><div class="card-meta"><span class="card-date">Date not specified</span><span class="card-type">Conference</span></div><h4>International Symposium on Chromatin Architecture: Structure and Function.</h4><p class="activity-detail">Participated virtually in the International Symposium on Chromatin Architecture, University of Tokyo; year not specified in the CV.</p></li></ol></section></section>
+</div>
+<p class="timeline-footnote" id="activity-source-note">Activities are based on the academic CV. Linked titles open available event or institutional pages; some entries do not have public links.</p>
+<p id="activity-announcement" aria-live="polite" role="status" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden"></p>
+</main>
+<footer class="site-footer"><div><span>&copy; <span id="footer-year">2026</span> Ghosh</span><a href="index.html#about">Home</a></div></footer>
+<script>
+(() => {
+  'use strict';
+  document.documentElement.classList.replace('no-js', 'js');
+  const $ = id => document.getElementById(id);
+  const result = $('activity-results');
+  const filterButtons = [...document.querySelectorAll('[data-focus]')];
+  const categories = [
+    { key: 'all', title: 'Full chronological timeline', description: 'Every activity, organized by year from newest to oldest.' },
+    { key: 'talks', title: 'Talks & presentations', description: 'Seminars, research presentations and invited lectures.' },
+    { key: 'posters', title: 'Posters & scientific meetings', description: 'Research posters and scientific conferences.' },
+    { key: 'innovation', title: 'Innovation & entrepreneurship', description: 'Technology translation and startup presentations.' },
+    { key: 'teaching', title: 'Teaching & mentoring', description: 'Workshops, teaching and career guidance.' },
+    { key: 'service', title: 'Academic service & outreach', description: 'Judging, science outreach and community service.' }
+  ];
+  const cat = Object.fromEntries(categories.map(value => [value.key, value]));
+  const groupFor = kind => {
+    const lower = String(kind || '').toLowerCase();
+    if (/innovation|startup|entrepreneur/.test(lower)) return 'innovation';
+    if (/poster|conference/.test(lower)) return 'posters';
+    if (/teaching|workshop|panel|mentor/.test(lower)) return 'teaching';
+    if (/service|outreach|judge/.test(lower)) return 'service';
+    return 'talks';
+  };
+  const when = value => /^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(String(value || '')) ? String(value).padEnd(10, '-00') : '';
+  const sorted = entries => entries.filter(e => e.active !== false && e.title).slice().sort((a, b) => {
+    const delta = when(b.date).localeCompare(when(a.date));
+    return delta || a.index - b.index;
+  });
+  const byYear = entries => {
+    const groups = new Map();
+    entries.forEach(e => {
+      const year = /^\d{4}/.test(e.date || '') ? e.date.slice(0, 4) : 'Undated';
+      if (!groups.has(year)) groups.set(year, []);
+      groups.get(year).push(e);
+    });
+    return [...groups];
+  };
+  const isSafeUrl = url => {
+    if (typeof url !== 'string' || !url.trim()) return '';
+    try { const u = new URL(url.trim(), location.href); return (u.protocol === 'https:' || u.protocol === 'http:') ? u.href : ''; }
+    catch { return ''; }
+  };
+  const dateShort = item => item.dateLabel || item.date || 'Date not specified';
+  const getFallback = () => [...result.querySelectorAll('.activity-card[data-key]')].map((card, i) => {
+    const title = card.querySelector('h4');
+    const anchor = title.querySelector('a');
+    return {
+      index: i, date: card.dataset.date || '', dateLabel: card.querySelector('.card-date')?.textContent || '',
+      kind: card.dataset.kind || '', title: title.textContent.trim(), detail: card.querySelector('.activity-detail')?.textContent || '',
+      url: anchor ? anchor.href : '', active: true
+    };
+  });
+  let items = sorted(getFallback());
+  let elements = new Map([...result.querySelectorAll('.activity-card[data-key]')].map(el => [el.dataset.key, el]));
+  let focus = 'all';
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const newElement = (name, className, text) => {
+    const el = document.createElement(name);
+    if (className) el.className = className;
+    if (text !== undefined) el.textContent = String(text);
+    return el;
+  };
+  function cardFor(item) {
+    const key = 'activity-' + item.index;
+    if (elements.has(key)) return elements.get(key);
+    const card = newElement('li', 'activity-card');
+    card.dataset.key = key; card.dataset.date = item.date || ''; card.dataset.kind = item.kind || '';
+    const meta = newElement('div', 'card-meta');
+    const date = newElement(/^\d{4}/.test(item.date || '') ? 'time' : 'span', 'card-date', dateShort(item));
+    if (date.tagName.toLowerCase() === 'time') date.dateTime = item.date;
+    meta.append(date, newElement('span', 'card-type', item.kind || 'Activity'));
+    const heading = newElement('h4');
+    const url = isSafeUrl(item.url);
+    if (url) {
+      const a = newElement('a', '', item.title); a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      heading.append(a);
+    } else heading.textContent = item.title;
+    card.append(meta, heading);
+    if (item.detail) card.append(newElement('p', 'activity-detail', item.detail));
+    elements.set(key, card);
+    return card;
+  }
+  const visibleFor = key => key === 'all' ? items : items.filter(item => groupFor(item.kind) === key);
+  function buildYears(displayed) {
+    const frag = document.createDocumentFragment();
+    byYear(displayed).forEach(([year, group]) => {
+      const section = newElement('section', 'year-section'); section.id = 'year-' + year; section.dataset.year = year;
+      section.setAttribute('aria-label', 'Activities in ' + (year === 'Undated' ? 'unspecified year' : year));
+      const label = newElement('div', 'year-label');
+      label.append(newElement('h3', '', year === 'Undated' ? 'Undated' : year), newElement('span', '', group.length + (group.length === 1 ? ' entry' : ' entries')));
+      const list = newElement('ol', 'year-events'); group.forEach(item => list.append(cardFor(item)));
+      section.append(label, list); frag.append(section);
+    });
+    if (!displayed.length) frag.append(newElement('p', 'empty-state', 'No activities in this group yet.'));
+    return frag;
+  }
+  function updateYearIndex() {
+    const nav = $('year-links'); nav.replaceChildren();
+    [...result.querySelectorAll('.year-section')].forEach(year => {
+      const a = newElement('a', 'year-link');
+      a.href = '#' + year.id;
+      a.append(newElement('strong', '', year.dataset.year === 'Undated' ? 'Other' : year.dataset.year),
+        newElement('span', '', year.querySelectorAll('.activity-card').length));
+      nav.append(a);
+    });
+  }
+  function updateFocusControls(key, displayed) {
+    filterButtons.forEach(btn => {
+      btn.setAttribute('aria-pressed', String(btn.dataset.focus === key));
+      const count = btn.querySelector('[data-count]');
+      if (count) count.textContent = visibleFor(btn.dataset.focus).length;
+    });
+    $('view-title').textContent = cat[key].title;
+    $('view-description').textContent = cat[key].description;
+    $('results-count').textContent = displayed.length + (displayed.length === 1 ? ' activity' : ' activities');
+    $('activity-announcement').textContent = 'Showing ' + displayed.length + ' activities: ' + cat[key].title;
+  }
+  function spawnGhosts(old, retained, token) {
+    const ghosts = [];
+    for (const [key, info] of old) {
+      if (retained.has(key)) continue;
+      const r = info.rect;
+      if (r.bottom < 0 || r.top > window.innerHeight) continue;
+      const ghost = info.element.cloneNode(true);
+      ghost.classList.add('ghost'); ghost.setAttribute('aria-hidden', 'true'); ghost.inert = true;
+      Object.assign(ghost.style, { left: r.left + 'px', top: r.top + 'px', width: r.width + 'px', height: r.height + 'px' });
+      document.body.append(ghost); ghosts.push(ghost);
+      ghost.animate([{ opacity: .8, transform: 'scale(1)' }, { opacity: 0, transform: 'scale(.965)' }], { duration: 210, easing: 'ease-in', fill: 'forwards' })
+        .finished.catch(() => {}).then(() => ghost.remove());
+    }
+    return ghosts;
+  }
+  function selectFocus(key, animate = true, historyMode = 'push') {
+    if (!cat[key]) key = 'all';
+    if (key === focus && animate) return;
+    const oldRects = new Map();
+    if (animate && !reducedMotion.matches) [...result.querySelectorAll('.activity-card[data-key]')].forEach(el => {
+      oldRects.set(el.dataset.key, { rect: el.getBoundingClientRect(), element: el });
+      el.getAnimations().forEach(a => a.cancel());
+    });
+    focus = key;
+    const displayed = visibleFor(key);
+    const retained = new Set(displayed.map(item => 'activity-' + item.index));
+    if (animate && !reducedMotion.matches) spawnGhosts(oldRects, retained);
+    result.replaceChildren(buildYears(displayed));
+    updateYearIndex(); updateFocusControls(key, displayed);
+    if (animate && !reducedMotion.matches) {
+      [...result.querySelectorAll('.activity-card')].forEach(card => {
+        const before = oldRects.get(card.dataset.key);
+        const after = card.getBoundingClientRect();
+        if (after.top > innerHeight + 250 || after.bottom < -250) return;
+        const dx = before ? before.rect.left - after.left : 0;
+        const dy = before ? before.rect.top - after.top : 0;
+        const movable = before && Math.abs(dy) < Math.max(900, innerHeight * 1.2);
+        card.animate(movable ? [
+          { transform: `translate(${dx}px, ${dy}px)`, opacity: .75 },
+          { transform: 'translate(0, 0)', opacity: 1 }
+        ] : [
+          { transform: 'translateY(12px)', opacity: .12 },
+          { transform: 'translateY(0)', opacity: 1 }
+        ], { duration: movable ? 430 : 290, easing: 'cubic-bezier(.22,.68,0,1)', fill: 'both' });
+      });
+      [...result.querySelectorAll('.year-label')].forEach(el => el.animate([
+        { opacity: 0, transform: 'translateY(7px)' },
+        { opacity: 1, transform: 'translateY(0)' }
+      ], { duration: 280, easing: 'ease-out' }));
+    }
+    if (historyMode) {
+      const u = new URL(location.href);
+      if (key === 'all') u.searchParams.delete('group');
+      else u.searchParams.set('group', key);
+      u.hash = '';
+      try { history[historyMode === 'replace' ? 'replaceState' : 'pushState']({ group: key }, '', u); }
+      catch { /* Some local file viewers disallow history URL updates. Filtering still works. */ }
+    }
+  }
+  filterButtons.forEach(btn => btn.addEventListener('click', () => {
+    const key = btn.dataset.focus;
+    selectFocus(key, true, 'push');
+    const top = $('timeline-heading').getBoundingClientRect().top;
+    if (top > innerHeight - 175) $('timeline-heading').scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' });
+  }));
+  window.addEventListener('popstate', () => {
+    const value = new URLSearchParams(location.search).get('group') || 'all';
+    selectFocus(cat[value] ? value : 'all', true, null);
+  });
+  $('footer-year').textContent = new Date().getFullYear();
+  const first = new URLSearchParams(location.search).get('group');
+  selectFocus(cat[first] ? first : 'all', false, null);
+  const preview = document.body.dataset.preview === 'true';
+  if (!preview && (location.protocol === 'https:' || location.protocol === 'http:')) {
+    fetch('content.json', { cache: 'no-store' }).then(resp => {
+      if (!resp.ok) throw new Error('content.json unavailable');
+      return resp.json();
+    }).then(data => {
+      if (!data || !Array.isArray(data.updates)) throw new Error('Missing updates');
+      items = sorted(data.updates.map((value, index) => ({ ...value, index })));
+      elements = new Map();
+      selectFocus(focus, false, null);
+      const cv = isSafeUrl(data.links?.cvDriveUrl);
+      if (cv) {
+        const existing = $('cv-unavailable');
+        if (existing) {
+          const a = newElement('a', '', 'CV'); a.href = cv; a.target = '_blank'; a.rel = 'noopener noreferrer';
+          existing.replaceWith(a);
+        }
+      }
+    }).catch(() => {
+      $('activity-source-note').textContent = 'Showing the included activity record. Live JSON updates could not be retrieved.';
+    });
+  }
+})();
+
+</script>
+</body>
+</html>

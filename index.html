@@ -1,88 +1,101 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Bappa Ghosh, Ph.D. — computational genomics, epigenetics, molecular simulation, and biotechnology innovation.">
-  <meta name="theme-color" content="#333333">
-  <meta property="og:title" content="Bappa Ghosh | Research & Innovation">
-  <meta property="og:description" content="Research, publications, and academic journey.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://omegabappa.github.io/">
-  <meta property="og:image" content="https://omegabappa.github.io/images/bappa.jpg">
-  <title>Bappa Ghosh | Research & Innovation</title>
-  <link rel="canonical" href="https://omegabappa.github.io/">
-  <link rel="stylesheet" href="style.css">
-  <script src="visitors.js" defer></script>
-  <script src="site.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <nav class="top-nav" aria-label="Main navigation">
-      <ul class="nav-links" id="primary-menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#timeline">Timeline</a></li>
-        <li><a href="#updates">Updates</a></li>
-        <li><a id="cv-link" target="_blank" rel="noopener noreferrer" hidden>CV ↗</a><span id="cv-pending" class="nav-disabled" title="CV link not yet available">CV</span></li>
-      </ul>
-      <div class="nav-actions">
-        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">Menu</button>
-        <a class="contact-nav" href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
-  <main class="content" id="main">
-    <section class="hero panel-row" id="about" aria-labelledby="profile-name">
-      <div class="panel profile-panel">
-        <img class="portrait" id="portrait" src="images/bappa.jpg" alt="Bappa Ghosh" width="700" height="700" fetchpriority="high">
-        <h1 id="profile-name">Bappa Ghosh <span class="degree">Ph.D.</span></h1>
-        <p class="profile-role" id="profile-role">Postdoctoral Researcher</p>
-        <p class="profile-affiliation" id="profile-affiliation">Department of Biomedical Sciences<br>University of North Dakota</p>
-        <div class="social-links" id="social-links" aria-label="Researcher profiles"></div>
-      </div>
-      <div class="panel biography-panel">
-        <h2>Biography</h2>
-        <div class="biography" id="biography"><p>I study 3D chromatin organization and gene regulation using computational genomics and sequencing.</p></div>
-        <p class="profile-links" id="profile-links"></p>
-      </div>
-    </section>
-    <p class="load-message" id="load-message" role="status" hidden></p>
-    <noscript><p class="panel">Enable JavaScript to view the full page. <a href="https://calendly.com/bappa/meeting">Schedule a meeting</a>.</p></noscript>
+<!DOCTYPE html>
 
-    <section class="panel section" id="updates" aria-labelledby="updates-title">
-      <div class="section-heading"><h2 id="updates-title">Updates</h2></div>
-      <ul class="updates-list" id="updates-list"></ul>
-      <details class="more" id="updates-more" hidden><summary><span class="when-closed" id="updates-more-label">See more updates</span><span class="when-open">Show fewer</span></summary><ul class="updates-list archive" id="updates-archive"></ul></details>
-    </section>
-    <section class="panel section" id="research" aria-labelledby="research-title">
-      <div class="section-heading"><h2 id="research-title">Research & Innovation</h2></div>
-      <div class="research-grid" id="research-list"></div>
-    </section>
-    <section class="panel section" id="publications" aria-labelledby="publications-title">
-      <div class="section-heading"><h2 id="publications-title">Publications</h2></div>
-      <ol class="publication-list" id="publications-list"></ol>
-      <details class="more" id="publications-more" hidden><summary><span class="when-closed" id="publications-more-label">See all publications</span><span class="when-open">Show fewer</span></summary><ol class="publication-list archive" id="publications-archive"></ol></details>
-    </section>
-    <section class="panel section" id="timeline" aria-labelledby="timeline-title">
-      <div class="section-heading"><h2 id="timeline-title">Academic journey</h2></div>
-      <ol class="timeline" id="timeline-list"></ol>
-    </section>
-    <section class="panel section contact-section" id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
-      <a class="button" id="schedule-link" href="https://calendly.com/bappa/meeting" target="_blank" rel="noopener noreferrer">Schedule a meeting ↗</a>
-    </section>
-    <aside class="visitor-panel" id="visitors" aria-labelledby="visitors-title" hidden>
-      <div class="visitor-heading"><h2 id="visitors-title">Visitors</h2><p class="quiet" id="visitor-status" role="status"></p></div>
-      <div id="visitor-data" hidden>
-        <div class="visitor-metrics"><p><strong id="visit-total">—</strong><span>Recorded visits</span></p><p><strong id="country-total">—</strong><span>Countries</span></p><p class="last-visit"><span>Latest recorded visit</span><strong id="last-visit">—</strong></p></div>
-        <div class="country-list" id="country-list" aria-label="Visits by country"></div>
-        <p class="visitor-note" id="visitor-note"></p>
-      </div>
-    </aside>
-  </main>
-  <footer class="site-footer"><div><span>© <span id="year">2026</span> Ghosh</span><a href="#about">Back to top ↑</a></div></footer>
-</body>
-</html>
+<html class="no-js" lang="en"><head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Bappa Ghosh, Ph.D. — computational genomics, chromatin biology, polymer dynamics and molecular simulation." name="description"/>
+<meta content="#333333" name="theme-color"/>
+<title>Bappa Ghosh | Academic Website</title>
+<link href="https://omegabappa.github.io/" rel="canonical"/>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="visitors.js"></script><script defer="" src="site.js"></script>
+</head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><nav aria-label="Main navigation" class="top-nav">
+<ul class="nav-links" id="primary-menu">
+<li><a href="#about">About</a></li>
+<li><a href="#research">Research &amp; Activities</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a hidden="" id="cv-link" rel="noopener noreferrer" target="_blank">CV</a><span class="nav-disabled" id="cv-pending" title="Add Google Drive CV URL to content.json">CV</span></li>
+</ul>
+<div class="nav-actions"><button aria-controls="primary-menu" aria-expanded="false" class="menu-toggle" id="menu-toggle" type="button">Menu</button></div>
+</nav></header>
+<main class="content" id="main">
+<section aria-labelledby="profile-name" class="hero panel-row" id="about">
+<div class="panel profile-panel">
+<img alt="Bappa Ghosh" class="portrait" fetchpriority="high" height="700" id="portrait" src="images/bappa.jpg" width="700"/>
+<h1 id="profile-name">Bappa Ghosh <span class="degree">Ph.D.</span></h1>
+<p class="profile-role" id="profile-role">Postdoctoral Researcher</p>
+<p class="profile-affiliation" id="profile-affiliation">Biomedical Sciences<br/>University of North Dakota</p>
+<ul aria-label="Researcher profiles" class="social-links profile-links-list" id="social-links"></ul>
+</div>
+<div class="panel biography-panel"><h2>Biography</h2>
+<div class="biography" id="biography"></div>
+<p class="lab-link" id="profile-links"></p>
+<div aria-labelledby="academic-heading" class="academic-journey"><h3 id="academic-heading">Academic</h3><ol class="academic-list" id="timeline-list"></ol></div>
+</div></section>
+<p class="load-message" hidden="" id="load-message" role="status"></p>
+<noscript><p class="panel">Enable JavaScript to load the updated biography and publications.</p></noscript>
+<section aria-labelledby="updates-title" class="panel section" id="updates">
+<div class="section-heading"><h2 id="updates-title">Recent updates</h2></div>
+<ul class="updates-list" id="updates-list"></ul>
+<p class="activities-link"><a href="activities.html">Full list of activities</a></p></section>
+<section aria-labelledby="research-title" class="panel section" id="research">
+<div class="section-heading"><h2 id="research-title">Research &amp; Activities</h2></div>
+<div class="research-grid" id="research-list"></div>
+</section>
+<section aria-labelledby="publications-title" class="panel section" id="publications">
+<div class="section-heading"><h2 id="publications-title">Recent publications</h2></div>
+<ol class="publication-list" id="publications-list"></ol>
+<p class="publication-more"><a href="https://scholar.google.com/citations?user=nSfKXrsAAAAJ" id="all-publications-scholar" rel="noopener noreferrer" target="_blank">See all publications</a></p>
+<details class="more" hidden="" id="publications-more"><summary><span class="when-closed" id="publications-more-label">See all publications</span><span class="when-open">Show fewer</span></summary><ol class="publication-list archive" id="publications-archive"></ol></details>
+</section><div hidden="" id="extra-sections"></div>
+<section aria-labelledby="contact-heading" class="panel section contact-section" id="contact">
+<h2 id="contact-heading">Contacts</h2>
+<div class="contact-options"><p>UND: <span>bappa(dot)ghosh(at)und(dot)edu</span></p><p>Gmail: <span>bgchem90(at)gmail(dot)com</span></p><p><a href="https://calendly.com/bappa/meeting" id="schedule-link" rel="noopener noreferrer" target="_blank">Schedule a meeting</a></p></div>
+</section>
+<aside aria-labelledby="visitors-title" class="visitor-panel" id="visitors">
+<div class="visitor-heading"><h2 id="visitors-title">Visitors</h2><p class="quiet" id="visitor-status" role="status">Country counter not connected</p></div>
+<p class="visitor-placeholder" id="visitor-placeholder">Enable a public visitor counter in content.json to display the total here. Country summaries require the optional counter service.</p>
+<div hidden="" id="visitor-data">
+<div class="visitor-metrics"><p><strong id="visit-total">—</strong><span>Recorded visits</span></p><p><strong id="country-total">—</strong><span>Countries</span></p><p class="last-visit"><span>Latest recorded visit</span><strong id="last-visit">—</strong></p></div>
+<div aria-label="Visits by country" class="country-list" id="country-list"></div><p class="visitor-note" id="visitor-note"></p>
+</div><div id="goatcounter-public"></div></aside>
+</main>
+<footer class="site-footer"><div>
+<span>© <span id="year">2026</span> Ghosh</span>
+<a href="#about">Back to top ↑</a>
+</div></footer>
+
+
+<div style="text-align:center; padding:15px; font-size:14px; color:#555;">
+  Website visits
+  <div>
+    <img
+      src="https://omegabappa.goatcounter.com/counter/TOTAL.svg?no_branding=1"
+      alt="Total website visits"
+      style="max-width:100%; height:auto;">
+  </div>
+</div>
+
+
+<div style="text-align:center; padding:15px; font-size:14px; color:#555;">
+  Website visits
+  <div>
+    <img
+      src="https://omegabappa.goatcounter.com/counter/TOTAL.svg?no_branding=1"
+      alt="Total website visits"
+      style="max-width:100%; height:auto;">
+  </div>
+</div>
+
+<div style="text-align:center; padding:15px; font-size:14px; color:#555;">
+  Website visits
+  <div>
+    <img
+      src="https://omegabappa.goatcounter.com/counter/TOTAL.svg?no_branding=1"
+      alt="Total website visits"
+      style="max-width:100%; height:auto;">
+  </div>
+</div>
+
+</body></html>

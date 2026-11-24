@@ -6,12 +6,12 @@
     "department": "Department of Biomedical Sciences",
     "institution": "University of North Dakota",
     "bio": [
-      "I study how 3D chromatin organization regulates gene expression, using computational genomics, sequencing, and molecular simulation.",
-      "My background in computational and theoretical biophysics spans polymer dynamics, statistical modeling, and cancer epigenetics. I teach bioinformatics and serve as Program Lead at Detectology, developing biotechnology applications."
+      "I am a postdoctoral researcher in Biomedical Sciences at the University of North Dakota, studying how chromatin organization shapes gene regulation. My work combines sequencing, computational genomics, statistical modeling, and molecular simulation.",
+      "Trained in computational and theoretical biophysics, I work across cancer epigenetics, polymer dynamics, and biotechnology innovation. I also teach bioinformatics and contribute to the Detectology program."
     ],
     "portrait": "images/bappa.jpg",
-    "departmentUrl": "https://med.und.edu/education-training/biomedical-sciences/index.html",
-    "institutionUrl": "https://und.edu/",
+    "departmentUrl": "",
+    "institutionUrl": "",
     "relatedLinks": [
       {
         "label": "Takaku Lab",
@@ -27,173 +27,532 @@
     "linkedin": "https://www.linkedin.com/in/bappa-ghosh-43327866/",
     "researchgate": "https://www.researchgate.net/profile/Bappa_Ghosh4",
     "twitter": "https://twitter.com/omegabappa",
-    "schedule": "https://calendly.com/bappa/meeting"
+    "schedule": "https://calendly.com/bappa/meeting",
+    "email": "bappa.ghosh@und.edu"
   },
   "updates": [
     {
+      "date": "2026-08-29",
+      "dateLabel": "Aug 2026",
+      "title": "Multiway 3D Chromatin Interactions in Breast Cancer",
+      "detail": "Talk at the UND Biomedical Sciences Retreat, Turtle River State Park, North Dakota.",
+      "url": "",
+      "active": true,
+      "kind": "Research talk"
+    },
+    {
       "date": "2026-08-20",
-      "dateLabel": "20 Aug 2026",
-      "title": "Detectology at the Lift-Off Showcase",
-      "detail": "Cell-free DNA recovery from small blood samples · UND.",
+      "dateLabel": "Aug 2026",
+      "title": "Detectology: Cell-Free DNA Recovery from Small Blood Samples for Cancer-Related Applications",
+      "detail": "Presented Detectology at the inaugural UND Lift-Off Showcase, Grand Forks.",
       "url": "https://blogs.und.edu/und-today/2026/08/und-innovators-pitch-commercialization-ready-ideas-at-inaugural-lift-off-showcase/",
-      "active": true
+      "active": true,
+      "kind": "Innovation talk"
+    },
+    {
+      "date": "2026-05-27",
+      "dateLabel": "May 2026",
+      "title": "Postdoctoral Career Guide Panel",
+      "detail": "Postdoctoral Career Guide Panel, UND School of Medicine & Health Sciences; career guidance for trainees.",
+      "url": "",
+      "active": true,
+      "kind": "Panel"
+    },
+    {
+      "date": "2026-05-20",
+      "dateLabel": "May 2026",
+      "title": "Insights from Single-Molecule Concatemers in 3D Genome Organization",
+      "detail": "Poster at the UND Epigenetics & Epigenomics Symposium; dates follow the uploaded CV.",
+      "url": "",
+      "active": true,
+      "kind": "Research poster"
+    },
+    {
+      "date": "2026-05-06",
+      "dateLabel": "May 2026",
+      "title": "Circulating Blood DNA Extraction for Cancer Screening",
+      "detail": "Presented at the gBETA Grand Forks Spring Showcase, Olive Ann Hotel.",
+      "url": "https://www.linkedin.com/posts/gener8tor_gbeta-entrepreneurship-startups-activity-7460346561399652352-o1hT",
+      "active": true,
+      "kind": "Innovation talk"
+    },
+    {
+      "date": "2026-04-29",
+      "dateLabel": "Apr 2026",
+      "title": "Developing Faster, More Accessible Methods for Early Cancer Detection Through Small Blood Samples",
+      "detail": "Presentation at the UND Center for Innovation LAUNCH Showcase, Grand Forks.",
+      "url": "https://blogs.und.edu/press-releases/2026/05/launch-event-highlights-unds-growing-culture-of-innovation/",
+      "active": true,
+      "kind": "Innovation talk"
     },
     {
       "date": "2026-04-27",
-      "dateLabel": "27 Apr 2026",
-      "title": "Frank Low Research Day",
-      "detail": "Judge · UND School of Medicine & Health Sciences.",
+      "dateLabel": "Apr 2026",
+      "title": "46th Frank Low Research Day",
+      "detail": "Volunteer judge at the 46th Frank Low Research Day, UND School of Medicine & Health Sciences.",
       "url": "https://med.und.edu/research/frank-low.html",
-      "active": true
+      "active": true,
+      "kind": "Service"
     },
     {
       "date": "2026-04-13",
-      "dateLabel": "13–15 Apr 2026",
-      "title": "Pioneer factor-driven genome restructuring in breast cancer",
-      "detail": "Poster · IDeA State Trainee Cancer Research Conference.",
-      "url": "",
-      "active": true
+      "dateLabel": "Apr 2026",
+      "title": "Multiway Chromatin Interactions Reveal Pioneer Factor-Driven Genome Restructuring in Breast Cancer",
+      "detail": "Poster at the IDeA State Cancer Trainee Research Conference, Morgantown, West Virginia.",
+      "url": "https://www.de-ctr.org/save-the-date-idea-state-cancer-trainee-research-conference/",
+      "active": true,
+      "kind": "Research poster"
+    },
+    {
+      "date": "2026-03-27",
+      "dateLabel": "Mar 2026",
+      "title": "North Dakota State Science & Engineering Fair",
+      "detail": "Volunteer judge at the North Dakota State Science and Engineering Fair, UND.",
+      "url": "https://blogs.und.edu/for-your-health/2026/02/26/judges-needed-for-north-dakota-state-science-and-engineering-fair-on-march-27/",
+      "active": true,
+      "kind": "Service"
     },
     {
       "date": "2025-11-19",
-      "dateLabel": "19 Nov 2025",
-      "title": "When a pioneer transcription factor goes errant",
-      "detail": "Research talk · UND Biomedical Sciences.",
+      "dateLabel": "Nov 2025",
+      "title": "When a Pioneer Transcription Factor Goes Errant: Consequences for 3D Genome Architecture in Breast Cancer Cells",
+      "detail": "Department of Biomedical Sciences seminar, University of North Dakota.",
       "url": "",
-      "active": false
+      "active": true,
+      "kind": "Research talk"
     },
     {
       "date": "2025-10-15",
-      "dateLabel": "15–17 Oct 2025",
-      "title": "GATA3 and 3D chromatin architecture",
-      "detail": "Poster · Epigenetics Society International Symposium, Chicago.",
+      "dateLabel": "Oct 2025",
+      "title": "Rewiring of 3D Chromatin Architecture by the Pioneer Factor GATA3 in Breast Cancer",
+      "detail": "Epigenetics Society International Symposium, Northwestern University, Chicago.",
+      "url": "https://epigeneticssocietyint.com/conference/biannual",
+      "active": true,
+      "kind": "Research poster"
+    },
+    {
+      "date": "2025-09-27",
+      "dateLabel": "Sep 2025",
+      "title": "Rewiring of 3D Chromatin Architecture by the Pioneer Factor GATA3 in Breast Cancer",
+      "detail": "Department of Biomedical Sciences Retreat, University of North Dakota.",
       "url": "",
-      "active": false
+      "active": true,
+      "kind": "Research talk"
+    },
+    {
+      "date": "2025-09-27",
+      "dateLabel": "Sep 2025",
+      "title": "Rewiring of 3D Chromatin Architecture by the Pioneer Factor GATA3 in Breast Cancer",
+      "detail": "Department of Biomedical Sciences Retreat, University of North Dakota.",
+      "url": "",
+      "active": true,
+      "kind": "Research poster"
     },
     {
       "date": "2025-05-20",
-      "dateLabel": "20–21 May 2025",
-      "title": "Pioneer-factor mutations and chromatin architecture",
-      "detail": "Poster · UND Epigenetics & Epigenomics Symposium.",
+      "dateLabel": "May 2025",
+      "title": "Influence of cancer-derived mutations in a pioneer factor on three-dimensional chromatin architecture assessed by nanopore concatemer sequencing",
+      "detail": "UND Epigenetics & Epigenomics Symposium; nanopore concatemer sequencing and pioneer-factor mutations.",
       "url": "",
-      "active": false
+      "active": true,
+      "kind": "Research poster"
+    },
+    {
+      "date": "2025-04-22",
+      "dateLabel": "Apr 2025",
+      "title": "45th Frank Low Research Day",
+      "detail": "Volunteer judge at the 45th Frank Low Research Day, UND.",
+      "url": "https://med.und.edu/research/frank-low.html",
+      "active": true,
+      "kind": "Service"
+    },
+    {
+      "date": "2025-03-31",
+      "dateLabel": "Mar 2025",
+      "title": "North Dakota State Science & Engineering Fair",
+      "detail": "Volunteer judge at the North Dakota State Science and Engineering Fair, UND.",
+      "url": "https://engineering.und.edu/outreach/k-12/ndssef.html",
+      "active": true,
+      "kind": "Service"
     },
     {
       "date": "2024-12-12",
-      "dateLabel": "12–15 Dec 2024",
-      "title": "Nanopore concatemer sequencing at Asilomar",
-      "detail": "Research talk · International Asilomar Chromatin Conference.",
-      "url": "https://bioquicknews.com/2024-asilomar-chromatin-chromosomes-and-epigenetics-conference-session-4-chromosomes-and-nuclear-organization/#more-16991",
-      "active": false
+      "dateLabel": "12-15 Dec 2024",
+      "title": "Unraveling the Effects of Cancer-Derived Pioneer Factor Mutations on 3D Chromatin Architecture Using Nanopore Concatemer Sequencing",
+      "detail": "46th International Asilomar Chromatin, Chromosomes and Epigenetics Conference, Pacific Grove, California.",
+      "url": "https://asilomarchromatin.com/",
+      "active": true,
+      "kind": "Research talk"
+    },
+    {
+      "date": "2024-10-23",
+      "dateLabel": "Oct 2024",
+      "title": "Sequencing at home: what can we learn from 3rd generation sequencing?",
+      "detail": "Department of Biomedical Sciences seminar, University of North Dakota.",
+      "url": "",
+      "active": true,
+      "kind": "Research talk"
     },
     {
       "date": "2024-09-26",
-      "dateLabel": "26–27 Sep 2024",
-      "title": "Nanopore sequencing, chromatin maps, and artificial intelligence",
-      "detail": "Invited talk · NSF-supported AIChE RAGSAB workshop.",
+      "dateLabel": "Sep 2024",
+      "title": "Nanopore DNA Sequencing to understand Chromatin 3D Map of Cancer Cells: Big Data, Artificial Intelligence and Promises",
+      "detail": "NSF-supported AIChE RAGSAB workshop, California; chromatin maps, sequencing and artificial intelligence.",
       "url": "https://www.aiche.org/conferences/ragsab/2024/technical-program",
-      "active": true
+      "active": true,
+      "kind": "Invited talk"
+    },
+    {
+      "date": "2024-05-13",
+      "dateLabel": "May 2024",
+      "title": "Influence of cancer-derived mutations in a pioneer factor on three-dimensional chromatin architecture assessed by nanopore concatemer sequencing",
+      "detail": "UND Epigenetics & Epigenomics Symposium.",
+      "url": "",
+      "active": true,
+      "kind": "Research poster"
     },
     {
       "date": "2024-04-30",
-      "dateLabel": "30 Apr–4 May 2024",
-      "title": "3D chromatin organization via nanopore concatemer sequencing",
-      "detail": "Poster · Genome Organization & Nuclear Function, CSHL.",
+      "dateLabel": "Apr 2024",
+      "title": "Impact of Cancer-derived Pioneer Factor Mutation on 3D Chromatin Organization via Nanopore Concatemer Sequencing",
+      "detail": "Genome Organization & Nuclear Function meeting, Cold Spring Harbor Laboratory, New York.",
       "url": "https://meetings.cshl.edu/abstracts.aspx?meet=NUCLEUS&year=24",
-      "active": true
+      "active": true,
+      "kind": "Research poster"
+    },
+    {
+      "date": "2024-04-11",
+      "dateLabel": "Apr 2024",
+      "title": "44th Frank Low Research Day",
+      "detail": "Volunteer judge at the 44th Frank Low Research Day, UND.",
+      "url": "https://med.und.edu/research/frank-low.html",
+      "active": true,
+      "kind": "Service"
+    },
+    {
+      "date": "2024-04-05",
+      "dateLabel": "Apr 2024",
+      "title": "North Dakota State Science & Engineering Fair",
+      "detail": "Volunteer judge at the North Dakota State Science and Engineering Fair, UND.",
+      "url": "https://engineering.und.edu/outreach/k-12/ndssef.html",
+      "active": true,
+      "kind": "Service"
+    },
+    {
+      "date": "2024-03-06",
+      "dateLabel": "Mar 2024",
+      "title": "Northeast Regional Science & Engineering Fair",
+      "detail": "Volunteer judge at the Northeast Regional Science & Engineering Fair, UND.",
+      "url": "",
+      "active": true,
+      "kind": "Service"
+    },
+    {
+      "date": "2023-10-21",
+      "dateLabel": "Oct 2023",
+      "title": "Investigating 3D Chromatin Organization through Nanopore Concatemer Sequencing in Breast Cancer Cells",
+      "detail": "Biomedical Sciences 10th Anniversary and Retreat, University of North Dakota.",
+      "url": "",
+      "active": true,
+      "kind": "Research poster"
+    },
+    {
+      "date": "2023-07-20",
+      "dateLabel": "Jul 2023",
+      "title": "How to use Artificial Intelligence - ChatGPT for biomedical research?",
+      "detail": "Led a workshop on using ChatGPT in biomedical research at the University of North Dakota.",
+      "url": "",
+      "active": true,
+      "kind": "Workshop"
     },
     {
       "date": "2023-06-11",
-      "dateLabel": "11–16 Jun 2023",
-      "title": "GATA3 mutations and 3D chromatin organization",
-      "detail": "Poster · Genome Architecture in Cell Fate and Disease, GRC.",
+      "dateLabel": "Jun 2023",
+      "title": "Investigating 3D Chromatin Organization through Nanopore Concatemer Sequencing of Breast Cancer Cells by GATA3 Mutations",
+      "detail": "Gordon Research Conference on Genome Architecture in Cell Fate and Disease, Ventura, California.",
       "url": "",
-      "active": true
+      "active": true,
+      "kind": "Research poster"
     },
     {
-      "date": "2023-04",
-      "dateLabel": "Apr 2023",
-      "title": "ChatGPT in scientific research",
-      "detail": "Workshop · UND School of Medicine & Health Sciences.",
+      "date": "2023-05-18",
+      "dateLabel": "May 2023",
+      "title": "Investigating 3D Chromatin Organization through Nanopore Concatemer Sequencing of Breast Cancer Cells by GATA3 Mutations",
+      "detail": "Annual Epigenetics & Epigenomics Symposium, University of North Dakota.",
       "url": "",
-      "active": true
+      "active": true,
+      "kind": "Research poster"
+    },
+    {
+      "date": "2023-04-13",
+      "dateLabel": "Apr 2023",
+      "title": "43rd Frank Low Research Day",
+      "detail": "Volunteer judge at the 43rd Frank Low Research Day, UND.",
+      "url": "https://med.und.edu/research/frank-low.html",
+      "active": true,
+      "kind": "Service"
+    },
+    {
+      "date": "2023-03-08",
+      "dateLabel": "Mar 2023",
+      "title": "North Dakota State Science & Engineering Fair",
+      "detail": "Volunteer judge at the North Dakota State Science and Engineering Fair, UND.",
+      "url": "https://engineering.und.edu/outreach/k-12/ndssef.html",
+      "active": true,
+      "kind": "Service"
+    },
+    {
+      "date": "2022-12-12",
+      "dateLabel": "Dec 2022",
+      "title": "National IDeA Symposium of Biomedical Research Excellence – NISBRE 2022 – December 12-14, Virtual Conference.",
+      "detail": "Attended the National IDeA Symposium of Biomedical Research Excellence (NISBRE), virtually.",
+      "url": "",
+      "active": true,
+      "kind": "Conference"
+    },
+    {
+      "date": "2022-12-08",
+      "dateLabel": "Dec 2022",
+      "title": "44th Annual International Asilomar Chromatin Chromosomes and Epigenetics Conference, December 8 – 10, 2022, Virtual Conference.",
+      "detail": "Attended the 44th International Asilomar Chromatin, Chromosomes and Epigenetics Conference, virtually.",
+      "url": "",
+      "active": true,
+      "kind": "Conference"
+    },
+    {
+      "date": "2022-12-05",
+      "dateLabel": "Dec 2022",
+      "title": "Nanopore Community Meeting 2022 (NCM 2022), December 5-7, 2022, Virtual Conference.",
+      "detail": "Attended Nanopore Community Meeting 2022, virtually.",
+      "url": "",
+      "active": true,
+      "kind": "Conference"
+    },
+    {
+      "date": "2022-03",
+      "dateLabel": "Mar 2022",
+      "title": "A comparative study of algorithms to find information entropy in equilibrium and non-equilibrium systems",
+      "detail": "APS March Meeting, Chicago; information entropy in equilibrium and nonequilibrium systems.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "2021",
+      "dateLabel": "2021",
+      "title": "Self-organization in Active Matter: From Living Crystals to Cells and Living Systems",
+      "detail": "Annual North Dakota Biomedical Engineering Symposium, University of North Dakota.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "2021",
+      "dateLabel": "2021",
+      "title": "Polymer Translocation: A few Investigations from Computer Simulations",
+      "detail": "Huenfeld workshop on Computer Simulation and Theory of Macromolecules, Germany.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "2021",
+      "dateLabel": "2021",
+      "title": "Pulling a Folded Polymer through a Nanopore",
+      "detail": "Frontiers in Ion Channels and Nanopores meeting, Sapienza University of Rome.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "2021",
+      "dateLabel": "2021",
+      "title": "Advanced Molecular Dynamics Simulation: A SAARC Regional Summer School 2021",
+      "detail": "Designed and taught molecular-dynamics training for 70+ participants, including GROMACS and NAMD.",
+      "url": "",
+      "active": true,
+      "kind": "Teaching"
+    },
+    {
+      "date": "2019",
+      "dateLabel": "2019",
+      "title": "Role of Polymer-Pore Interactions in Translocation dynamics",
+      "detail": "Soft Matter and Statistical Mechanics meeting, IISER Pune.",
+      "url": "",
+      "active": true,
+      "kind": "Research talk"
+    },
+    {
+      "date": "2019",
+      "dateLabel": "2019",
+      "title": "Role of Polymer-Pore Interactions in Translocation dynamics",
+      "detail": "Multi-scale Simulation & Mathematical Modelling of Complex Biological Systems, New Delhi.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "2018-12-20",
+      "dateLabel": "Dec 2018",
+      "title": "Molecular Modeling in Chemistry",
+      "detail": "Helped teach a Molecular Modeling in Chemistry workshop at IISER Pune.",
+      "url": "",
+      "active": true,
+      "kind": "Teaching"
+    },
+    {
+      "date": "2018",
+      "dateLabel": "2018",
+      "title": "Role of Polymer-Pore Interactions in Translocation dynamics",
+      "detail": "Puri Polymer Conference, India.",
+      "url": "",
+      "active": true,
+      "kind": "Research talk"
+    },
+    {
+      "date": "2018",
+      "dateLabel": "2018",
+      "title": "Influence of the Location of Attractive Polymer-Pore Interactions on Translocation Dynamics",
+      "detail": "Chemsymphoria, IISER Pune.",
+      "url": "",
+      "active": true,
+      "kind": "Research talk"
+    },
+    {
+      "date": "2018",
+      "dateLabel": "2018",
+      "title": "Dynamics of End-pulled polymer Translocation Through a Nanopore",
+      "detail": "SPSI-MACRO meeting, IISER Pune.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "2017",
+      "dateLabel": "2017",
+      "title": "Influence of the Location of Attractive Polymer-Pore Interactions on Translocation Dynamics",
+      "detail": "Recent Advances in Modeling Rare Events (RARE), Agra.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "2016",
+      "dateLabel": "2016",
+      "title": "End-pulled Polymer Translocation through a Nanopore",
+      "detail": "15th Indian Theoretical Chemistry Symposium, University of Hyderabad.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "2015",
+      "dateLabel": "2015",
+      "title": "Entropy Production Theorems in Systems with Memory",
+      "detail": "Physical and Biophysical Chemistry: Theory and Experiment, IIT Bombay.",
+      "url": "",
+      "active": true,
+      "kind": "Research presentation"
+    },
+    {
+      "date": "",
+      "dateLabel": "Date not specified",
+      "title": "International Symposium on Chromatin Architecture: Structure and Function.",
+      "detail": "Participated virtually in the International Symposium on Chromatin Architecture, University of Tokyo; year not specified in the CV.",
+      "url": "",
+      "active": true,
+      "kind": "Conference"
     }
   ],
   "researchCategories": [
     {
-      "id": "simulation",
-      "title": "Molecular Simulation",
-      "description": "",
-      "documents": [
-        {
-          "title": "Molecular modeling and simulation",
-          "detail": "",
-          "url": "",
-          "fallbackUrl": "https://doi.org/10.1016/j.cjche.2019.02.006",
-          "fallbackLabel": "Related paper"
-        },
-        {
-          "title": "Active fluids and statistical modeling",
-          "detail": "",
-          "url": "",
-          "fallbackUrl": "https://doi.org/10.1063/5.0096955",
-          "fallbackLabel": "Paper"
-        }
-      ]
-    },
-    {
       "id": "epigenetics",
-      "title": "Epigenetics & 3D Genomics",
-      "description": "",
+      "title": "Epigenetics, Bioinformatics & 3D Chromatin",
+      "description": "I study how three-dimensional genome organization and pioneer transcription factors influence gene regulation in cancer. My work combines nanopore-based multiway chromatin contacts, Hi-C, chromatin accessibility, and transcriptomics. I develop computational workflows to quantify genome reorganization and connect chromatin structure with gene expression. I also study cell-free DNA and interpretable machine learning for cancer-related applications.",
       "documents": [
         {
-          "title": "GATA3 and 3D genome organization",
-          "detail": "",
-          "url": "",
+          "title": "Open chromatin-guided interpretable machine learning reveals cancer-specific chromatin features in cell-free DNA",
+          "detail": "Communications Biology 8, 1554",
+          "url": "https://doi.org/10.1038/s42003-025-08920-0",
           "fallbackUrl": "",
           "fallbackLabel": ""
         },
         {
-          "title": "Cell-free DNA and interpretable machine learning",
-          "detail": "",
+          "title": "GATA3 and 3D genome organization",
+          "detail": "Research in progress; add a public manuscript, poster, or Google Drive link when available.",
           "url": "",
-          "fallbackUrl": "https://doi.org/10.1038/s42003-025-08920-0",
-          "fallbackLabel": "Paper"
+          "fallbackUrl": "",
+          "fallbackLabel": ""
         }
       ]
     },
     {
-      "id": "polymer-dynamics",
-      "title": "Polymer Dynamics",
-      "description": "",
+      "id": "polymer-simulation",
+      "title": "Polymer Dynamics & Molecular Simulation",
+      "description": "My research uses statistical mechanics, molecular simulation, and computational biophysics to investigate the dynamics of complex systems. I have studied driven polymer translocation through nanopores, polymer–pore interactions, and the effects of charge and pH. Related work examines the behavior of active fluids, molecular assemblies, and nonequilibrium processes.",
       "documents": [
         {
-          "title": "Polymer translocation through nanopores",
-          "detail": "",
-          "url": "",
-          "fallbackUrl": "https://doi.org/10.1088/1361-648X/abb687",
-          "fallbackLabel": "Paper"
+          "title": "Pulling a folded polymer through a nanopore",
+          "detail": "Journal of Physics: Condensed Matter 33(1), 015101",
+          "url": "https://doi.org/10.1088/1361-648X/abb687",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
+        },
+        {
+          "title": "Translocation dynamics of an asymmetrically charged polymer through a pore under the influence of different pH conditions",
+          "detail": "The Journal of Physical Chemistry B 123, 4318–4323",
+          "url": "https://doi.org/10.1021/acs.jpcb.8b12301",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
+        },
+        {
+          "title": "Influence of the location of attractive polymer–pore interactions on translocation dynamics",
+          "detail": "The Journal of Physical Chemistry B 122, 360–368",
+          "url": "https://doi.org/10.1021/acs.jpcb.7b09208",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
+        },
+        {
+          "title": "Dynamics of end-pulled polymer translocation through a nanopore",
+          "detail": "Europhysics Letters 120, 38004",
+          "url": "https://doi.org/10.1209/0295-5075/120/38004",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
+        },
+        {
+          "title": "Designing, synthesizing, and modeling active fluids",
+          "detail": "Physics of Fluids 34, 071301",
+          "url": "https://doi.org/10.1063/5.0096955",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
+        },
+        {
+          "title": "Fluctuation theorems for total entropy production in generalized Langevin systems",
+          "detail": "Physica A: Statistical Mechanics and its Applications 466, 133–139",
+          "url": "https://doi.org/10.1016/j.physa.2016.09.001",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
         }
       ]
     },
     {
       "id": "innovation",
-      "title": "Innovation",
-      "description": "",
+      "title": "Innovation Activities",
+      "description": "As Program Lead at Detectology, I support the development of accessible cell-free DNA extraction and analysis approaches for cancer-related applications. My activities include customer discovery, prototyping, translational research, and commercialization planning. Detectology has secured a reported combined $55,000 through Innovate ND and the UND Innovation Moonshot initiative.",
       "documents": [
         {
-          "title": "Detectology: cell-free DNA applications",
-          "detail": "",
-          "url": "",
-          "fallbackUrl": "https://blogs.und.edu/und-today/2026/08/und-innovators-pitch-commercialization-ready-ideas-at-inaugural-lift-off-showcase/",
-          "fallbackLabel": "UND feature"
+          "title": "Detectology at the UND Lift-Off Showcase",
+          "detail": "Innovation Moonshot accelerator and biotechnology commercialization.",
+          "url": "https://blogs.und.edu/und-today/2026/08/und-innovators-pitch-commercialization-ready-ideas-at-inaugural-lift-off-showcase/",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
         },
         {
-          "title": "Innovation and commercialization",
-          "detail": "",
-          "url": "",
-          "fallbackUrl": "https://blogs.und.edu/press-releases/2026/05/launch-event-highlights-unds-growing-culture-of-innovation/",
-          "fallbackLabel": "UND feature"
+          "title": "UND LAUNCH innovation showcase",
+          "detail": "University innovation and entrepreneurship activities.",
+          "url": "https://blogs.und.edu/press-releases/2026/05/launch-event-highlights-unds-growing-culture-of-innovation/",
+          "fallbackUrl": "",
+          "fallbackLabel": ""
         }
       ]
     }
@@ -266,54 +625,56 @@
   ],
   "timeline": [
     {
-      "id": "und-biomedical-sciences",
-      "period": "2021-present",
+      "id": "und",
+      "period": "2021–present",
       "title": "Postdoctoral Researcher",
-      "institution": "University of North Dakota, USA",
-      "location": "",
+      "institution": "University of North Dakota",
+      "location": "USA",
       "detail": "",
-      "url": "https://med.und.edu/education-training/biomedical-sciences/index.html"
+      "url": ""
     },
     {
-      "id": "iiser-tvm-postdoc",
+      "id": "iiser-tvm",
       "period": "2020–2021",
       "title": "Postdoctoral Researcher",
-      "institution": "IISER Thiruvananthapuram, India",
-      "location": "",
+      "institution": "IISER Thiruvananthapuram",
+      "location": "India",
       "detail": "",
-      "url": "https://chemistry.iisertvm.ac.in/"
+      "url": ""
     },
     {
-      "id": "iiser-pune-phd",
+      "id": "iiser-pune",
       "period": "2014–2020",
-      "title": "Ph.D. in Computational and Theoretical Biophysics",
-      "institution": "IISER Pune, India",
-      "location": "",
-      "detail": "Thesis: Some aspects of non-equilibrium polymer translocation dynamics.",
-      "url": "https://www.iiserpune.ac.in/research/department/chemistry"
+      "title": "Ph.D. · Computational and Theoretical Biophysics",
+      "institution": "IISER Pune",
+      "location": "India",
+      "detail": "Polymer translocation dynamics",
+      "url": ""
     },
     {
       "id": "iit-kanpur",
       "period": "2011–2013",
-      "title": "M.Sc. in Chemical Sciences",
-      "institution": "IIT Kanpur, India",
-      "location": "",
+      "title": "M.Sc. · Chemical Sciences",
+      "institution": "IIT Kanpur",
+      "location": "India",
       "detail": "",
-      "url": "https://iitk.ac.in/chm/about"
+      "url": ""
     },
     {
       "id": "visva-bharati",
       "period": "2008–2011",
-      "title": "B.Sc. (Hons.) in Chemical Sciences",
-      "institution": "Visva-Bharati University, India",
-      "location": "",
+      "title": "B.Sc. (Hons.) · Chemical Sciences",
+      "institution": "Visva-Bharati University",
+      "location": "India",
       "detail": "",
-      "url": "https://www.visvabharati.ac.in/home/chemistry/"
+      "url": ""
     }
   ],
   "settings": {
     "ga4MeasurementId": "G-X4SHV8J1WP",
     "visitorEndpoint": "",
-    "updatesVisible": 7
-  }
+    "updatesVisible": 3,
+    "goatCounterCode": "omegabappa"
+  },
+  "additionalSections": []
 }

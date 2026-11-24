@@ -70,23 +70,30 @@
   function renderProfile(profile, links) {
     $('profile-name').replaceChildren(document.createTextNode(profile.name + ' '), node('span', profile.degree, 'degree'));
     text('profile-role', profile.role);
-    $('profile-affiliation').replaceChildren(external(profile.department, profile.departmentUrl), node('br'), external(profile.institution, profile.institutionUrl));
+    $('profile-affiliation').replaceChildren(node('span', profile.department), node('br'), node('span', profile.institution));
     const portrait = safeUrl(profile.portrait);
     if (portrait) $('portrait').src = portrait;
     $('portrait').alt = profile.name;
     replace('biography', list(profile.bio).map(paragraph => node('p', paragraph)));
-    replace('profile-links', list(profile.relatedLinks).filter(item => safeUrl(item.url)).map(item => external(item.label, item.url)));
+
     const profiles = [
-      ['scholar', 'Google Scholar', 'google-scholar4372.png'], ['linkedin', 'LinkedIn', 'LinkedIn_logo_initials.png'],
-      ['github', 'GitHub', 'GitHub-logo.png'], ['researchgate', 'ResearchGate', 'ResearchGate_icon.png'],
-      ['orcid', 'ORCID', 'ORCID_iD.png'], ['twitter', 'X / Twitter', 'twitter-x-app.png']
+      ['scholar','Google Scholar','google-scholar4372.png'],
+      ['researchgate','ResearchGate','ResearchGate_icon.png'],
+      ['orcid','ORCID','ORCID_iD.png'],
+      ['github','GitHub','GitHub-logo.png'],
+      ['linkedin','LinkedIn','LinkedIn_logo_initials.png'],
+      ['twitter','X (Twitter)','twitter-x-app.png']
     ];
-    replace('social-links', profiles.filter(([key]) => safeUrl(links[key])).map(([key, label, filename]) => {
-      const link = external('', links[key]);
-      link.setAttribute('aria-label', label); link.title = label;
-      const img = node('img'); Object.assign(img, { src: `images/${filename}`, alt: '', width: 30, height: 30 });
-      link.append(img); return link;
-    }));
+    const items = profiles.filter(([key]) => safeUrl(links[key])).map(([key,label,filename]) => {
+      const li = node('li');
+      const anchor = external('', links[key], 'profile-social-link');
+      const img = node('img'); img.src = `images/${filename}`;
+      img.alt = ''; img.width = 24; img.height = 24;
+      const frame = node('span', '', 'social-icon-frame'); frame.append(img); anchor.append(frame, node('span', label, 'social-name')); li.append(anchor); return li;
+    });
+    replace('social-links', items);
+    replace('profile-links', list(profile.relatedLinks).filter(item => safeUrl(item.url)).map(item => external(item.label, item.url)));
+
   }
 
   function renderUpdates(items) {
@@ -99,11 +106,9 @@
       if (item.detail) body.append(node('p', item.detail));
       li.append(time, body); return li;
     };
-    replace('updates-list', active.slice(0, 7).map(render));
-    replace('updates-archive', active.slice(7).map(render));
-    $('updates-more').hidden = active.length <= 7;
-    text('updates-count', active.length ? `Latest ${Math.min(7, active.length)}` : 'More news soon');
-    text('updates-more-label', `See more updates (${Math.max(0, active.length - 7)})`);
+    const limit = 3;
+    replace('updates-list', active.slice(0, limit).map(render));
+
   }
 
   function renderResearch(categories) {
@@ -141,21 +146,20 @@
       li.append(node('span', item.year, 'publication-year'), body); return li;
     };
     replace('publications-list', featured.map(render));
-    replace('publications-archive', rest.map(render));
-    $('publications-more').hidden = !rest.length;
-    text('publications-more-label', `See all publications (${publications.length})`);
+    replace('publications-archive', []);
+    $('publications-more').hidden = true;
+
   }
 
   function renderTimeline(items) {
     replace('timeline-list', list(items).map(item => {
-      const li = node('li', '', 'timeline-item'), body = node('div');
-      body.append(node('h3', item.title));
-      const institution = node('p', '', 'timeline-institution');
-      institution.append(external(item.institution, item.url));
-      if (item.location) institution.append(document.createTextNode(` · ${item.location}`));
-      body.append(institution);
-      if (item.detail) body.append(node('p', item.detail, 'timeline-detail'));
-      li.append(node('span', item.period, 'timeline-period'), body); return li;
+      const li = node('li');
+      const dates = node('span', item.period, 'academic-period');
+      const details = node('div');
+      details.append(node('p', item.title, 'academic-position'));
+      details.append(node('p', item.institution, 'academic-place'));
+      li.append(dates, details);
+      return li;
     }));
   }
 
@@ -167,6 +171,8 @@
     $('cv-link').hidden = !cv;
     $('cv-pending').hidden = Boolean(cv);
     if (cv) $('cv-link').href = cv;
+    const scholar = $('all-publications-scholar');
+    if (scholar) { scholar.hidden = !safeUrl(links.scholar); if (!scholar.hidden) scholar.href = safeUrl(links.scholar); }
   }
 
   function startAnalytics(settings) {
@@ -185,7 +191,78 @@
     if (typeof window.startVisitorInsights === 'function') window.startVisitorInsights(settings);
   }
 
+  function activityYear(item) {
+    const match = /^\d{4}/.exec(item.date || '');
+    return match ? match[0] : 'Date not specified';
+  }
+
+  function renderAllActivities(items) {
+    const active = list(items).filter(item => item.active !== false).slice()
+      .sort((a, b) => dateKey(b.date).localeCompare(dateKey(a.date)));
+    const years = new Map();
+    active.forEach(item => {
+      const year = activityYear(item);
+      if (!years.has(year)) years.set(year, []);
+      years.get(year).push(item);
+    });
+    const blocks = [...years].map(([year, entries]) => {
+      const section = node('section', '', 'activity-year-block');
+      const heading = node('h2', year, 'activity-year-title');
+      section.append(heading);
+      const ol = node('ol', '', 'activity-timeline');
+      entries.forEach(item => {
+        const li = node('li', '', 'activity-item');
+        const time = node('time', dateLabel(item), 'activity-date');
+        if (dateKey(item.date)) time.dateTime = item.date;
+        const body = node('div', '', 'activity-content');
+        if (item.kind) body.append(node('span', item.kind, 'activity-kind'));
+        const title = node('h3');
+        title.append(external(item.title, item.url));
+        body.append(title);
+        if (item.detail) body.append(node('p', item.detail, 'activity-detail'));
+        li.append(time, body); ol.append(li);
+      });
+      section.append(ol); return section;
+    });
+    replace('activities-list', blocks);
+  }
+
+  function renderAdditionalSections(items) {
+    const region = $('extra-sections');
+    if (!region) return;
+    const sections = list(items).filter(item => item && item.visible !== false && String(item.title || '').trim());
+    region.replaceChildren(...sections.map((item, i) => {
+      const section = node('section', '', 'panel section additional-section');
+      const slug = /^[a-z][a-z0-9-]*$/.test(item.id || '') ? item.id : `custom-${i+1}`;
+      section.id = `section-${slug}`;
+      section.append(node('h2', item.title));
+      if (item.description) section.append(node('p', item.description, 'research-description'));
+      const links = node('ul', '', 'document-list');
+      list(item.items).filter(entry => entry && String(entry.title || '').trim()).forEach(entry => {
+        const li = node('li'); li.append(external(entry.title, entry.url));
+        if (entry.detail) li.append(node('p', entry.detail, 'document-detail'));
+        links.append(li);
+      });
+      if (links.children.length) section.append(links);
+      return section;
+    }));
+    region.hidden = !sections.length;
+  }
+
   async function init() {
+    if ($('activities-list')) {
+      text('year', new Date().getFullYear());
+      try {
+        const embedded=$('site-data');
+        const data=embedded ? JSON.parse(embedded.textContent) : await fetch('content.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('Content unavailable');return r.json();});
+        renderAllActivities(data.updates);
+        const cv = safeUrl(data.links && data.links.cvDriveUrl);
+        const cvLink = $('activities-cv');
+        if (cvLink && cv) { cvLink.href = cv; cvLink.target = '_blank'; cvLink.rel = 'noopener noreferrer'; }
+        else if (cvLink) { cvLink.removeAttribute('href'); cvLink.setAttribute('aria-disabled','true'); cvLink.title = 'Add CV Google Drive URL in content.json'; }
+      } catch(err) { text('activities-message', location.protocol === 'file:' ? 'Offline preview: showing the included activity list.' : 'Showing the included activity list. Check content.json if you have just made edits.'); }
+      return;
+    }
     setupNavigation();
     try {
       const embedded = $('site-data');
@@ -196,6 +273,7 @@
       renderProfile(data.profile, data.links);
       renderUpdates(data.updates); renderResearch(data.researchCategories);
       renderPublications(data.publications); renderTimeline(data.timeline);
+      renderAdditionalSections(data.additionalSections);
       renderContact(data.links);
       startAnalytics(data.settings || {});
       document.documentElement.dataset.contentReady = 'true';

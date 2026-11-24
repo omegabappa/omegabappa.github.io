@@ -14,7 +14,7 @@
     "institutionUrl": "",
     "relatedLinks": [
       {
-        "label": "Currently: Takaku Lab",
+        "label": "Takaku Lab",
         "url": "https://sites.google.com/view/takakulab/takaku-lab"
       }
     ]
@@ -28,9 +28,20 @@
     "researchgate": "https://www.researchgate.net/profile/Bappa_Ghosh4",
     "twitter": "https://twitter.com/omegabappa",
     "schedule": "https://calendly.com/bappa/meeting",
-    "email": ""
+    "email": "bappa.ghosh@und.edu"
   },
   "updates": [
+    {
+      "date": "2026-10-29",
+      "dateLabel": "Oct 2026",
+      "title": "Single-Molecule Multiway Concatemers Reveal 3D Genome Restructuring by a Pioneer Factor in Breast Cancer",
+      "detail": "Poster at the ASBMB conference on Transcriptional regulation by chromatin and RNA polymerase at Alexandria, VA, USA.",
+      "url": "https://www.asbmb.org/meetings-events/transcriptional-regulation-2026",
+      "active": true,
+      "kind": "Research poster",
+      "showOnHomepage": true,
+      "category": "meetings"
+    },
     {
       "date": "2026-08-29",
       "dateLabel": "Aug 2026",
@@ -38,7 +49,9 @@
       "detail": "Talk at the UND Biomedical Sciences Retreat, Turtle River State Park, North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Research talk"
+      "kind": "Research talk",
+      "showOnHomepage": true,
+      "category": "meetings"
     },
     {
       "date": "2026-08-20",
@@ -47,7 +60,9 @@
       "detail": "Presented Detectology at the inaugural UND Lift-Off Showcase, Grand Forks.",
       "url": "https://blogs.und.edu/und-today/2026/08/und-innovators-pitch-commercialization-ready-ideas-at-inaugural-lift-off-showcase/",
       "active": true,
-      "kind": "Innovation talk"
+      "kind": "Innovation talk",
+      "showOnHomepage": true,
+      "category": "innovation"
     },
     {
       "date": "2026-05-27",
@@ -56,7 +71,9 @@
       "detail": "Postdoctoral Career Guide Panel, UND School of Medicine & Health Sciences; career guidance for trainees.",
       "url": "",
       "active": true,
-      "kind": "Panel"
+      "kind": "Panel",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2026-05-20",
@@ -65,7 +82,9 @@
       "detail": "Poster at the UND Epigenetics & Epigenomics Symposium; dates follow the uploaded CV.",
       "url": "",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2026-05-06",
@@ -74,7 +93,9 @@
       "detail": "Presented at the gBETA Grand Forks Spring Showcase, Olive Ann Hotel.",
       "url": "https://www.linkedin.com/posts/gener8tor_gbeta-entrepreneurship-startups-activity-7460346561399652352-o1hT",
       "active": true,
-      "kind": "Innovation talk"
+      "kind": "Innovation talk",
+      "showOnHomepage": false,
+      "category": "innovation"
     },
     {
       "date": "2026-04-29",
@@ -83,7 +104,9 @@
       "detail": "Presentation at the UND Center for Innovation LAUNCH Showcase, Grand Forks.",
       "url": "https://blogs.und.edu/press-releases/2026/05/launch-event-highlights-unds-growing-culture-of-innovation/",
       "active": true,
-      "kind": "Innovation talk"
+      "kind": "Innovation talk",
+      "showOnHomepage": false,
+      "category": "innovation"
     },
     {
       "date": "2026-04-27",
@@ -92,7 +115,9 @@
       "detail": "Volunteer judge at the 46th Frank Low Research Day, UND School of Medicine & Health Sciences.",
       "url": "https://med.und.edu/research/frank-low.html",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2026-04-13",
@@ -101,7 +126,9 @@
       "detail": "Poster at the IDeA State Cancer Trainee Research Conference, Morgantown, West Virginia.",
       "url": "https://www.de-ctr.org/save-the-date-idea-state-cancer-trainee-research-conference/",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2026-03-27",
@@ -110,7 +137,9 @@
       "detail": "Volunteer judge at the North Dakota State Science and Engineering Fair, UND.",
       "url": "https://blogs.und.edu/for-your-health/2026/02/26/judges-needed-for-north-dakota-state-science-and-engineering-fair-on-march-27/",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2025-11-19",
@@ -119,7 +148,9 @@
       "detail": "Department of Biomedical Sciences seminar, University of North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Research talk"
+      "kind": "Research talk",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2025-10-15",
@@ -128,7 +159,9 @@
       "detail": "Epigenetics Society International Symposium, Northwestern University, Chicago.",
       "url": "https://epigeneticssocietyint.com/conference/biannual",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2025-09-27",
@@ -137,7 +170,9 @@
       "detail": "Department of Biomedical Sciences Retreat, University of North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Research talk"
+      "kind": "Research talk",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2025-09-27",
@@ -146,7 +181,9 @@
       "detail": "Department of Biomedical Sciences Retreat, University of North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2025-05-20",
@@ -155,7 +192,9 @@
       "detail": "UND Epigenetics & Epigenomics Symposium; nanopore concatemer sequencing and pioneer-factor mutations.",
       "url": "",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2025-04-22",
@@ -164,7 +203,9 @@
       "detail": "Volunteer judge at the 45th Frank Low Research Day, UND.",
       "url": "https://med.und.edu/research/frank-low.html",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2025-03-31",
@@ -173,7 +214,9 @@
       "detail": "Volunteer judge at the North Dakota State Science and Engineering Fair, UND.",
       "url": "https://engineering.und.edu/outreach/k-12/ndssef.html",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2024-12-12",
@@ -182,7 +225,9 @@
       "detail": "46th International Asilomar Chromatin, Chromosomes and Epigenetics Conference, Pacific Grove, California.",
       "url": "https://asilomarchromatin.com/",
       "active": true,
-      "kind": "Research talk"
+      "kind": "Research talk",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2024-10-23",
@@ -191,7 +236,9 @@
       "detail": "Department of Biomedical Sciences seminar, University of North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Research talk"
+      "kind": "Research talk",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2024-09-26",
@@ -200,7 +247,9 @@
       "detail": "NSF-supported AIChE RAGSAB workshop, California; chromatin maps, sequencing and artificial intelligence.",
       "url": "https://www.aiche.org/conferences/ragsab/2024/technical-program",
       "active": true,
-      "kind": "Invited talk"
+      "kind": "Invited talk",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2024-05-13",
@@ -209,7 +258,9 @@
       "detail": "UND Epigenetics & Epigenomics Symposium.",
       "url": "",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2024-04-30",
@@ -218,7 +269,9 @@
       "detail": "Genome Organization & Nuclear Function meeting, Cold Spring Harbor Laboratory, New York.",
       "url": "https://meetings.cshl.edu/abstracts.aspx?meet=NUCLEUS&year=24",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2024-04-11",
@@ -227,7 +280,9 @@
       "detail": "Volunteer judge at the 44th Frank Low Research Day, UND.",
       "url": "https://med.und.edu/research/frank-low.html",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2024-04-05",
@@ -236,7 +291,9 @@
       "detail": "Volunteer judge at the North Dakota State Science and Engineering Fair, UND.",
       "url": "https://engineering.und.edu/outreach/k-12/ndssef.html",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2024-03-06",
@@ -245,7 +302,9 @@
       "detail": "Volunteer judge at the Northeast Regional Science & Engineering Fair, UND.",
       "url": "",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2023-10-21",
@@ -254,7 +313,9 @@
       "detail": "Biomedical Sciences 10th Anniversary and Retreat, University of North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2023-07-20",
@@ -263,7 +324,9 @@
       "detail": "Led a workshop on using ChatGPT in biomedical research at the University of North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Workshop"
+      "kind": "Workshop",
+      "showOnHomepage": false,
+      "category": "teaching"
     },
     {
       "date": "2023-06-11",
@@ -272,7 +335,9 @@
       "detail": "Gordon Research Conference on Genome Architecture in Cell Fate and Disease, Ventura, California.",
       "url": "",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2023-05-18",
@@ -281,7 +346,9 @@
       "detail": "Annual Epigenetics & Epigenomics Symposium, University of North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Research poster"
+      "kind": "Research poster",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2023-04-13",
@@ -290,7 +357,9 @@
       "detail": "Volunteer judge at the 43rd Frank Low Research Day, UND.",
       "url": "https://med.und.edu/research/frank-low.html",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2023-03-08",
@@ -299,7 +368,9 @@
       "detail": "Volunteer judge at the North Dakota State Science and Engineering Fair, UND.",
       "url": "https://engineering.und.edu/outreach/k-12/ndssef.html",
       "active": true,
-      "kind": "Service"
+      "kind": "Service",
+      "showOnHomepage": false,
+      "category": "service"
     },
     {
       "date": "2022-12-12",
@@ -308,7 +379,9 @@
       "detail": "Attended the National IDeA Symposium of Biomedical Research Excellence (NISBRE), virtually.",
       "url": "",
       "active": true,
-      "kind": "Conference"
+      "kind": "Conference",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2022-12-08",
@@ -317,7 +390,9 @@
       "detail": "Attended the 44th International Asilomar Chromatin, Chromosomes and Epigenetics Conference, virtually.",
       "url": "",
       "active": true,
-      "kind": "Conference"
+      "kind": "Conference",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2022-12-05",
@@ -326,7 +401,9 @@
       "detail": "Attended Nanopore Community Meeting 2022, virtually.",
       "url": "",
       "active": true,
-      "kind": "Conference"
+      "kind": "Conference",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2022-03",
@@ -335,7 +412,9 @@
       "detail": "APS March Meeting, Chicago; information entropy in equilibrium and nonequilibrium systems.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2021",
@@ -344,7 +423,9 @@
       "detail": "Annual North Dakota Biomedical Engineering Symposium, University of North Dakota.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2021",
@@ -353,7 +434,9 @@
       "detail": "Huenfeld workshop on Computer Simulation and Theory of Macromolecules, Germany.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2021",
@@ -362,7 +445,9 @@
       "detail": "Frontiers in Ion Channels and Nanopores meeting, Sapienza University of Rome.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2021",
@@ -371,7 +456,9 @@
       "detail": "Designed and taught molecular-dynamics training for 70+ participants, including GROMACS and NAMD.",
       "url": "",
       "active": true,
-      "kind": "Teaching"
+      "kind": "Teaching",
+      "showOnHomepage": false,
+      "category": "teaching"
     },
     {
       "date": "2019",
@@ -380,7 +467,9 @@
       "detail": "Soft Matter and Statistical Mechanics meeting, IISER Pune.",
       "url": "",
       "active": true,
-      "kind": "Research talk"
+      "kind": "Research talk",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2019",
@@ -389,7 +478,9 @@
       "detail": "Multi-scale Simulation & Mathematical Modelling of Complex Biological Systems, New Delhi.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2018-12-20",
@@ -398,7 +489,9 @@
       "detail": "Helped teach a Molecular Modeling in Chemistry workshop at IISER Pune.",
       "url": "",
       "active": true,
-      "kind": "Teaching"
+      "kind": "Teaching",
+      "showOnHomepage": false,
+      "category": "teaching"
     },
     {
       "date": "2018",
@@ -407,7 +500,9 @@
       "detail": "Puri Polymer Conference, India.",
       "url": "",
       "active": true,
-      "kind": "Research talk"
+      "kind": "Research talk",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2018",
@@ -416,7 +511,9 @@
       "detail": "Chemsymphoria, IISER Pune.",
       "url": "",
       "active": true,
-      "kind": "Research talk"
+      "kind": "Research talk",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2018",
@@ -425,7 +522,9 @@
       "detail": "SPSI-MACRO meeting, IISER Pune.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2017",
@@ -434,7 +533,9 @@
       "detail": "Recent Advances in Modeling Rare Events (RARE), Agra.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2016",
@@ -443,7 +544,9 @@
       "detail": "15th Indian Theoretical Chemistry Symposium, University of Hyderabad.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "2015",
@@ -452,7 +555,9 @@
       "detail": "Physical and Biophysical Chemistry: Theory and Experiment, IIT Bombay.",
       "url": "",
       "active": true,
-      "kind": "Research presentation"
+      "kind": "Research presentation",
+      "showOnHomepage": false,
+      "category": "meetings"
     },
     {
       "date": "",
@@ -461,16 +566,9 @@
       "detail": "Participated virtually in the International Symposium on Chromatin Architecture, University of Tokyo; year not specified in the CV.",
       "url": "",
       "active": true,
-      "kind": "Conference"
-    },
-    {
-      "date": "2026-10-29",
-      "dateLabel": "Oct 2026",
-      "title": "Single-Molecule Multiway Concatemers Reveal 3D Genome Restructuring by a Pioneer Factor in Breast Cancer",
-      "detail": "Poster at the ASBMB conference on Transcriptional regulation by chromatin and RNA polymerase at Alexandria, VA, USA.",
-      "url": "https://www.asbmb.org/meetings-events/transcriptional-regulation-2026",
-      "active": true,
-      "kind": "Research poster"
+      "kind": "Conference",
+      "showOnHomepage": false,
+      "category": "meetings"
     }
   ],
   "researchCategories": [
@@ -683,7 +781,7 @@
     "ga4MeasurementId": "G-X4SHV8J1WP",
     "visitorEndpoint": "",
     "updatesVisible": 3,
-    "goatCounterCode": "omegabappa"
+    "goatCounterCode": ""
   },
   "additionalSections": []
 }

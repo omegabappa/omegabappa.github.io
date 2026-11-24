@@ -97,7 +97,7 @@
   }
 
   function renderUpdates(items) {
-    const active = list(items).filter(item => item.active !== false).sort((a, b) => dateKey(b.date).localeCompare(dateKey(a.date)));
+    const active = list(items).filter(item => item.active !== false && item.showOnHomepage === true).sort((a, b) => dateKey(b.date).localeCompare(dateKey(a.date)));
     const render = item => {
       const li = node('li', '', 'update'), time = node('time', dateLabel(item));
       if (dateKey(item.date)) time.dateTime = item.date;
@@ -106,8 +106,7 @@
       if (item.detail) body.append(node('p', item.detail));
       li.append(time, body); return li;
     };
-    const limit = 3;
-    replace('updates-list', active.slice(0, limit).map(render));
+    replace('updates-list', active.map(render));
 
   }
 

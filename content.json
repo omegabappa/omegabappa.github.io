@@ -7,7 +7,7 @@
     "institution": "University of North Dakota",
     "bio": [
       "I am a postdoctoral researcher in Biomedical Sciences at the University of North Dakota, studying how chromatin organization shapes gene regulation. My work combines sequencing, computational genomics, statistical modeling, and molecular simulation.",
-      "Trained in computational and theoretical biophysics, I work across cancer epigenetics, polymer dynamics, and biotechnology innovation. I also teach bioinformatics and contribute to the Detectology program."
+      "Trained in computational and theoretical biophysics, I work across cancer epigenetics, polymer dynamics, and biotechnology innovation. I also teach bioinformatics in the biomedical sciences curriculum and mentor students in research and innovation. I enjoy playing Cricket and Badminton, and I like reading about science, technology, and society."
     ],
     "portrait": "images/bappa.jpg",
     "departmentUrl": "",
@@ -20,7 +20,7 @@
     ]
   },
   "links": {
-    "cvDriveUrl": "",
+    "cvDriveUrl": "https://docs.google.com/document/d/1L_GfMVbhCKKK_O40z_wBD9hxanjb0sSN/edit?usp=sharing&ouid=106203525407941047925&rtpof=true&sd=true",
     "scholar": "https://scholar.google.com/citations?user=nSfKXrsAAAAJ",
     "orcid": "https://orcid.org/0000-0002-4054-0859",
     "github": "https://github.com/omegabappa",
@@ -50,7 +50,7 @@
       "url": "",
       "active": true,
       "kind": "Research talk",
-      "showOnHomepage": true,
+      "showOnHomepage": false,
       "category": "meetings"
     },
     {
@@ -138,7 +138,7 @@
       "url": "https://blogs.und.edu/for-your-health/2026/02/26/judges-needed-for-north-dakota-state-science-and-engineering-fair-on-march-27/",
       "active": true,
       "kind": "Service",
-      "showOnHomepage": false,
+      "showOnHomepage": true,
       "category": "service"
     },
     {
@@ -575,7 +575,7 @@
     {
       "id": "epigenetics",
       "title": "Epigenetics, Bioinformatics & 3D Chromatin",
-      "description": "I study how three-dimensional genome organization and pioneer transcription factors influence gene regulation in cancer. My work combines nanopore-based multiway chromatin contacts, Hi-C, chromatin accessibility, and transcriptomics. I develop computational workflows to quantify genome reorganization and connect chromatin structure with gene expression. I also study cell-free DNA and interpretable machine learning for cancer-related applications.",
+      "description": "I study how three-dimensional genome organization and pioneer transcription factors influence gene regulation in cancer. My work combines nanopore-based multiway chromatin contacts, Hi-C, chromatin accessibility, and transcriptomics. I develop computational workflows to quantify genome reorganization and connect chromatin structure with gene expression.",
       "documents": [
         {
           "title": "Open chromatin-guided interpretable machine learning reveals cancer-specific chromatin features in cell-free DNA",
@@ -586,7 +586,7 @@
         },
         {
           "title": "GATA3 and 3D genome organization",
-          "detail": "Research in progress; add a public manuscript, poster, or Google Drive link when available.",
+          "detail": "",
           "url": "",
           "fallbackUrl": "",
           "fallbackLabel": ""
@@ -645,10 +645,10 @@
     {
       "id": "innovation",
       "title": "Innovation Activities",
-      "description": "As Program Lead at Detectology, I support the development of accessible cell-free DNA extraction and analysis approaches for cancer-related applications. My activities include customer discovery, prototyping, translational research, and commercialization planning. Detectology has secured a reported combined $55,000 through Innovate ND and the UND Innovation Moonshot initiative.",
+      "description": " I support the development of accessible cell-free DNA extraction and analysis approaches for cancer-related applications. My innovation activities include funding, prototyping, translational research, and commercialization planning. Detectology has secured a reported combined $55,000 through Innovate ND and the UND Innovation Moonshot initiative.",
       "documents": [
         {
-          "title": "Detectology at the UND Lift-Off Showcase",
+          "title": "Detectology at the UND Lift-Off",
           "detail": "Innovation Moonshot accelerator and biotechnology commercialization.",
           "url": "https://blogs.und.edu/und-today/2026/08/und-innovators-pitch-commercialization-ready-ideas-at-inaugural-lift-off-showcase/",
           "fallbackUrl": "",
